@@ -18,20 +18,6 @@ HIR-M3 solves these issues by embedding features into a structural hierarchy and
 
 ---
 
-## Data & Systemic Under-Coding Analysis
-
-The primary data source utilizes **CMS OASIS-E** (Outcome and Assessment Information Set) assessment data focused on a Texas cohort. Initial benchmark exploratory data analysis against National CMS averages uncovered substantial systematic under-coding in Texas clinical administrative records:
-
-| Clinical Condition | Reported National Average | Reported Texas Cohort | Drop / Deficit |
-| :--- | :---: | :---: | :---: |
-| **Diabetes** | Baseline | — | **-38.4%** relative drop |
-| **Heart Failure (CHF)** | Baseline | — | **-41.5%** relative drop |
-| **Hypertension** | Baseline | — | **-52.7%** relative drop |
-
-This statistical void crippled basic ICD-reliant predictive algorithms. Connecting granular demographic and geographic structural datasets (American Community Survey 5-Year SDOH metrics, FIPS-level indices, and provider-level HIPPS payment data) became mandatory to reconstruct complete patient risk profiles.
-
----
-
 ## Methodology & Model Architecture
 
 
