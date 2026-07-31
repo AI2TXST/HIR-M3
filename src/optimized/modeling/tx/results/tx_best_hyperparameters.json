@@ -1,0 +1,47 @@
+{
+    "LightGBM": {
+        "learning_rate": 0.1,
+        "n_estimators": 200,
+        "num_leaves": 50
+    },
+    "XGBoost": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "n_estimators": 200
+    },
+    "CatBoost": {
+        "depth": 6,
+        "iterations": 200,
+        "learning_rate": 0.1
+    },
+    "Random Forest": {
+        "max_depth": 20,
+        "n_estimators": 50
+    },
+    "Gradient Boosting": {
+        "learning_rate": 0.1,
+        "n_estimators": 100
+    },
+    "Logistic Regression": {
+        "C": 10.0
+    },
+    "Standard MLP": {
+        "BATCH_SIZE": 128,
+        "HIDDEN_DIM": 128,
+        "LR": 0.0005,
+        "EPOCHS": 10,
+        "DROPOUT": 0.2
+    },
+    "HIR-M3 Transformer": {
+        "BATCH_SIZE": 128,
+        "EMBED_DIM": 32,
+        "NUM_HEADS": 4,
+        "NUM_LAYERS": 1,
+        "HIDDEN_DIM": 64,
+        "LR": 0.001,
+        "EPOCHS": 5,
+        "LAMBDA_HIR": 0.1,
+        "GAMMA": 0.5,
+        "PATIENCE": 3
+    }
+}

@@ -1,0 +1,227 @@
+Cluster_ID,Cluster_Name,Source_Column
+-196,"Factors Influencing Health Status: Z92.21, Z92.3",Other_Diagnosis_Code_1_ICD_10_C_M_Cluster
+-195,"Factors Influencing Health Status: Z86.718, Z86.711",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-194,"Factors Influencing Health Status: Z90.5, Z85.528",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-193,"Factors Influencing Health Status: Z74.1, Z74.3",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-192,"Factors Influencing Health Status: Z94.4, Z48.23",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-191,"Factors Influencing Health Status: Z94.0, Z48.22",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-190,"Injury/Toxicity: T87.81, T87.44",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-189,"Factors Influencing Health Status: Z94.2, T86.810",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-188,"Injury/Toxicity: T81.4XXA, T81.31XA",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-187,"Injury/Toxicity: S91.302D, S91.301D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-186,"Injury/Toxicity: S91.302A, S91.301A",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-185,"Injury/Toxicity: S91.104D, S91.101D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-184,"Injury/Toxicity: S91.001D, S91.002D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-183,"Injury/Toxicity: S90.821D, S90.822D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-182,"Injury/Toxicity: S82.62XD, S82.52XD",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-181,"Injury/Toxicity: S82.402D, S82.202D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-180,"Injury/Toxicity: S82.401D, S82.201D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-179,"Injury/Toxicity: S81.811D, S81.812D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-178,"Injury/Toxicity: S81.812A, S81.811A",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-177,"Injury/Toxicity: S81.802S, S81.801S",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-176,"Injury/Toxicity: S81.801D, S81.802D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-175,"Injury/Toxicity: S81.802A, S81.801A",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-174,"Injury/Toxicity: S81.011D, S81.012D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-173,"Injury/Toxicity: S80.822D, S80.821D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-172,"Injury/Toxicity: S80.811D, S80.812D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-171,"Injury/Toxicity: S80.212D, S80.211D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-170,"Injury/Toxicity: S61.402D, S61.401D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-169,"Injury/Toxicity: S60.512D, S60.511D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-168,"Injury/Toxicity: S52.502D, S52.602D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-167,"Injury/Toxicity: S52.501D, S52.601D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-166,"Injury/Toxicity: S51.802D, S51.801D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-165,"Injury/Toxicity: S51.001D, S51.002D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-164,"Injury/Toxicity: S50.912D, S50.911D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-163,"Injury/Toxicity: S50.811D, S50.812D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-162,"Injury/Toxicity: S50.312D, S50.311D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-161,"Injury/Toxicity: S41.112D, S41.111D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-160,"Injury/Toxicity: S41.101D, S41.102D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-159,"Injury/Toxicity: S70.01XD, S40.011D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-158,"Injury/Toxicity: S32.592D, S32.512D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-157,"Injury/Toxicity: S32.591D, S32.511D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-156,"Injury/Toxicity: S32.10XD, S32.502D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-155,"Injury/Toxicity: S32.049D, S32.059D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-154,"Injury/Toxicity: S22.43XD, S22.20XD",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-153,"Injury/Toxicity: S32.019D, S22.089D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-152,"Injury/Toxicity: S32.018D, S22.088D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-151,"Injury/Toxicity: S32.010D, S22.080D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-150,"Injury/Toxicity: S22.069D, S22.079D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-149,"Injury/Toxicity: S22.070D, S22.060D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-148,"Injury/Toxicity: S12.600D, S12.500D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-147,"Injury/Toxicity: S12.100D, S12.000D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-146,"Injury/Toxicity: S06.5X9D, S06.6X9D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-145,"Symptoms/Signs: R44.1, R44.0",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-144,"Symptoms/Signs: R22.42, R22.41",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-143,"Symptoms/Signs: R23.8, R68.89",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-142,"Symptoms/Signs: R32., R15.9",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-141,"Symptoms/Signs: R10.11, R10.31",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-140,"Injury/Toxicity: M97.11XD, S72.451D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-139,"Factors Influencing Health Status: M96.1, Z48.811",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-138,"Musculoskeletal: M87.052, M87.051",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-137,"Musculoskeletal: M80.031D, M80.032D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-136,"Musculoskeletal: M79.674, M79.675",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-135,"Musculoskeletal: M79.671, M79.672",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-134,"Musculoskeletal: M79.661, M79.662",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-133,"Musculoskeletal: M79.651, M79.652",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-132,"Musculoskeletal: M79.641, M79.642",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-131,"Musculoskeletal: M79.604, M79.605",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-130,"Musculoskeletal: M75.51, M75.52",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-129,"Musculoskeletal: M75.121, M75.41",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-128,"Musculoskeletal: M75.111, M75.112",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-127,"Musculoskeletal: M75.01, M75.02",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-126,"Musculoskeletal: M70.72, M70.71",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-125,"Musculoskeletal: M70.61, M70.62",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-124,"Musculoskeletal: M62.561, M62.551",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-123,"Musculoskeletal: M54.41, M54.42",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-122,"Musculoskeletal: M54.31, M54.32",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-121,"Musculoskeletal: M50.20, M99.71",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-120,"Musculoskeletal: M50.01, M50.021",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-119,"Musculoskeletal: M47.819, Q76.2",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-118,"Musculoskeletal: M48.02, M54.12",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-117,"Factors Influencing Health Status: M43.26, Z98.1",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-116,"Musculoskeletal: Z47.89, M48.06",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-115,"Musculoskeletal: M25.571, M25.572",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-114,"Musculoskeletal: M25.551, M25.552",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-113,"Musculoskeletal: M25.541, M25.542",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-112,"Musculoskeletal: M25.511, M25.512",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-111,"Musculoskeletal: M24.561, M24.562",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-110,"Musculoskeletal: M24.542, M24.541",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-109,"Musculoskeletal: M22.41, M22.42",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-108,"Musculoskeletal: M21.371, M21.372",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-107,"Musculoskeletal: M20.41, M20.42",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-106,"Musculoskeletal: M19.071, M19.072",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-105,"Musculoskeletal: M19.041, M19.042",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-104,"Musculoskeletal: M19.031, M19.032",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-103,"Musculoskeletal: M19.011, M19.012",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-102,"Musculoskeletal: M14.671, M14.672",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-101,"Musculoskeletal: M13.862, M13.861",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-100,"Musculoskeletal: M10.071, M10.072",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-99,"Musculoskeletal: M10.061, M10.062",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-98,"Skin/Subcutaneous: L97.929, L97.919",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-97,"Skin/Subcutaneous: L97.922, L97.912",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-96,"Skin/Subcutaneous: L97.921, L97.911",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-95,"Skin/Subcutaneous: L97.829, L97.819",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-94,"Skin/Subcutaneous: L97.823, L97.813",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-93,"Skin/Subcutaneous: L97.523, L97.513",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-92,"Skin/Subcutaneous: L97.429, L97.419",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-91,"Musculoskeletal: M86.671, L97.414",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-90,"Skin/Subcutaneous: L97.412, L97.422",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-89,"Skin/Subcutaneous: L97.421, L97.411",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-88,"Skin/Subcutaneous: L97.319, L97.329",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-87,"Skin/Subcutaneous: L97.219, L97.229",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-86,"Skin/Subcutaneous: L89.624, L89.614",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-85,"Skin/Subcutaneous: L89.623, L89.613",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-84,"Skin/Subcutaneous: L89.622, L89.612",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-83,"Skin/Subcutaneous: L89.621, L89.611",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-82,"Skin/Subcutaneous: L89.620, L89.610",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-81,"Skin/Subcutaneous: L89.523, L89.513",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-80,"Skin/Subcutaneous: L89.522, L89.512",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-79,"Skin/Subcutaneous: L89.510, L89.520",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-78,"Skin/Subcutaneous: L89.313, L89.323",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-77,"Skin/Subcutaneous: L89.312, L89.322",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-76,"Skin/Subcutaneous: L89.311, L89.321",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-75,"Skin/Subcutaneous: L89.310, L89.320",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-74,"Skin/Subcutaneous: L89.894, L89.224",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-73,"Skin/Subcutaneous: L89.223, L89.213",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-72,"Skin/Subcutaneous: L03.116, L03.115",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-71,"Skin/Subcutaneous: L03.011, L02.511",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-70,"Skin/Subcutaneous: L03.114, L02.414",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-69,"Skin/Subcutaneous: L03.113, L02.413",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-68,"Skin/Subcutaneous: L73.2, L02.411",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-67,"Skin/Subcutaneous: L02.31, L03.317",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-66,"Skin/Subcutaneous: L02.215, L03.315",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-65,"Skin/Subcutaneous: L02.214, L03.314",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-64,"Skin/Subcutaneous: L03.313, L02.213",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-63,"Skin/Subcutaneous: L02.212, L03.312",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-62,"Skin/Subcutaneous: L02.211, L03.311",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-61,"Skin/Subcutaneous: L02.11, L03.221",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-60,"Digestive: K59.03, T40.2X5D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-59,"Digestive: K26.9, K22.10",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-58,"Respiratory: J96.21, J96.22",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-57,"Respiratory: J96.11, J96.12",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-56,"Respiratory: R49.0, J38.01",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-55,"Circulatory: I83.12, I83.11",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-54,"Circulatory: I82.412, I82.432",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-53,"Circulatory: I82.411, I82.431",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-52,"Circulatory: I70.238, I70.248",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-51,"Circulatory: I69.991, I69.920",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-50,"Circulatory: I69.251, I69.254",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-49,"Circulatory: I69.151, I69.154",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-48,"Circulatory: I69.091, I69.020",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-47,"Circulatory: I69.011, I69.098",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-46,"Circulatory: I50.23, I25.5",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-45,"Circulatory: I15.0, I70.1",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-44,"Factors Influencing Health Status: G91.2, Z98.2",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-43,"Injury/Toxicity: G82.50, S14.109S",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-42,"Skin/Subcutaneous: L89.154, G82.21",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-41,"Neurologic: G56.01, G56.02",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-40,"Neurologic: G24.3, G24.8",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-39,"Musculoskeletal: M46.26, G06.1",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-38,"Mental/Behavioral: F51.05, G25.89",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-37,"Mental/Behavioral: F12.10, F14.10",Other_Diagnosis_Code_1_ICD_10_C_M_Cluster
+-36,"Mental/Behavioral: G62.1, F10.188",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-35,"Neurologic: G20., G30.9",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-34,"Circulatory: F01.50, I69.311",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-33,"Endocrine/Metabolic: E83.42, E83.51",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-32,"Factors Influencing Health Status: E66.01, Z68.41",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-31,"Musculoskeletal: E11.69, M86.9",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-30,"Circulatory: I87.2, I89.0",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-29,"Endocrine/Metabolic: M12.89, E11.618",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-28,"Factors Influencing Health Status: E11.51, E11.621",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-27,"Digestive: E11.43, K31.84",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-26,"Endocrine/Metabolic: E10.22, E10.65",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-25,"Endocrine/Metabolic: T38.0X5D, G72.0",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-24,"Endocrine/Metabolic: E08.9, K86.81",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-23,"Injury/Toxicity: T45.515D, D68.32",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-22,"Injury/Toxicity: G62.0, T45.1X5D",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-20,"Other: D62., D50.0",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-19,"Factors Influencing Health Status: J91.0, Z46.82",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-18,"Factors Influencing Health Status: N40.1, Z46.6",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-17,"Neoplasm/Hematologic: C56.9, C78.6",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-16,"Neoplasm/Hematologic: C56.1, C56.2",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-15,"Factors Influencing Health Status: Z85.3, C50.912",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-14,"Neoplasm/Hematologic: C50.811, C50.812",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-13,"Neoplasm/Hematologic: C44.42, C44.329",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-12,"Musculoskeletal: M84.58XD, C41.2",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-11,"Circulatory: I69.354, I69.351",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-10,"Digestive: C25.0, K83.1",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-9,"Factors Influencing Health Status: Z48.815, Z43.3",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-8,"Neoplasm/Hematologic: C61., C34.90",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-7,"Factors Influencing Health Status: C15.9, Z43.4",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-6,"Neoplasm/Hematologic: C77.0, C09.9",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-5,"Genitourinary: N39.0, B96.20",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-4,"Infectious: R78.81, B95.61",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-3,"Circulatory: B95.4, I33.0",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-2,"Digestive: K74.60, B18.2",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+-1,Isolated / Unclustered,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+0,"Circulatory: I10., M62.81",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+1,Factors Influencing Health Status: Z99.81,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+2,Genitourinary: N18.5,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+3,Symptoms/Signs: R26.9,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+4,"Factors Influencing Health Status: Z48.812, I21.4",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+5,Factors Influencing Health Status: Z79.891,Other_Diagnosis_Code_1_ICD_10_C_M_Cluster
+6,Genitourinary: N18.2,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+7,"Factors Influencing Health Status: Z96.641, M16.11",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+8,"Mental/Behavioral: F32.9, F41.9",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+9,Endocrine/Metabolic: E11.65,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+10,Symptoms/Signs: R26.89,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+11,"Respiratory: J18.9, J44.0",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+12,"Factors Influencing Health Status: Z96.642, M16.12",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+13,Symptoms/Signs: R26.2,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+14,Circulatory: I50.22,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+15,"Endocrine/Metabolic: E78.5, E03.9",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+16,Musculoskeletal: M15.0,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+17,Respiratory: J20.9,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+18,Factors Influencing Health Status: Z79.84,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+19,Factors Influencing Health Status: Z91.81,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+20,Circulatory: I50.30,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+21,Mental/Behavioral: F03.90,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+22,"Musculoskeletal: M25.561, M25.562",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+23,Circulatory: I50.32,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+24,"Factors Influencing Health Status: Z79.01, Z51.81",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+25,Factors Influencing Health Status: Z79.4,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+26,"Factors Influencing Health Status: Z45.2, Z79.2",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+27,"Factors Influencing Health Status: Z96.652, M17.12",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+28,Factors Influencing Health Status: Z79.82,Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+29,"Factors Influencing Health Status: Z96.651, M17.11",Primary_Diagnosis_ICD_10_C_M_Code_Cluster
+30,Digestive: K21.9,Primary_Diagnosis_ICD_10_C_M_Code_Cluster

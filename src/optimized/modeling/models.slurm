@@ -1,0 +1,48 @@
+#!/bin/bash
+#SBATCH --job-name=oasis_modeling
+#SBATCH --partition=shared
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --nodes=1
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=m_e172@txstate.edu
+#SBATCH --output=job_modeling_%j.out
+#SBATCH --error=job_modeling_%j.err
+
+echo ""
+echo "Starting Model Pipeline at $(date)"
+echo "Running on hosts: $SLURM_NODELIST"
+echo "Running on $SLURM_NNODES nodes."
+echo "Running on $SLURM_NPROCS processors."
+
+# Change directory
+cd "/home/m_e172/OASIS/OASIS_v2/data processing - newest/modeling" || exit 1
+echo "Current working directory is $(pwd)"
+
+# Robust Conda Environment Initialization
+source ~/.bashrc 2>/dev/null || true
+eval "$(conda shell.bash hook 2>/dev/null)" || true
+source $(conda info --base 2>/dev/null)/etc/profile.d/conda.sh 2>/dev/null || source /opt/anaconda3/etc/profile.d/conda.sh 2>/dev/null || source ~/miniconda3/etc/profile.d/conda.sh 2>/dev/null || true
+conda activate spark_env 2>/dev/null || source activate spark_env 2>/dev/null || true
+
+# Set PYTHONPATH to include current and parent directories for clean imports
+export PYTHONPATH=".:..:../featureSelection:$PYTHONPATH"
+export PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export MKL_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export OPENBLAS_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+echo "Active Python: $(which python)"
+python -u -c "import sys; print('Python executable:', sys.executable)"
+
+echo "Launching run_modeling.py (unbuffered logs)..."
+python -u run_modeling.py
+
+STATUS=$?
+conda deactivate 2>/dev/null || true
+echo ""
+echo "Program finished with exit code $STATUS at: $(date)"
+echo ""
+
