@@ -1,0 +1,657 @@
+Cohort,Model,Threshold,Threshold Type,Accuracy,F1 Score,Precision,Recall,Specificity,ROC AUC,PR AUC,Brier Score,ACT-Parity Gap,FNR Gap,FPR Gap,Net Benefit,Acceptable Threshold,Valid Threshold,Exclusion Reason,Predicted Positive Count,Predicted Negative Count
+Nationwide Cohort,XGBoost with ACT-parity,0.1,Sweep,0.3102,0.2703,0.1565,0.9919,0.2094,0.8136,0.3963,0.1723,0.2585,0.2606,0.2924,0.0512,False,True,None,55409,12453
+Nationwide Cohort,XGBoost with ACT-parity,0.11,Sweep,0.3275,0.2748,0.1595,0.9891,0.2296,0.8136,0.3963,0.1723,0.2558,0.2581,0.2788,0.0445,False,True,None,54191,13671
+Nationwide Cohort,XGBoost with ACT-parity,0.12,Sweep,0.3444,0.2792,0.1627,0.9859,0.2496,0.8136,0.3963,0.1723,0.2526,0.2556,0.273,0.0378,False,True,None,52983,14879
+Nationwide Cohort,XGBoost with ACT-parity,0.13,Sweep,0.3624,0.2841,0.1661,0.982,0.2708,0.8136,0.3963,0.1723,0.2487,0.2523,0.279,0.0316,False,True,None,51693,16169
+Nationwide Cohort,XGBoost with ACT-parity,0.14,Sweep,0.3798,0.2889,0.1695,0.978,0.2913,0.8136,0.3963,0.1723,0.2447,0.2488,0.2646,0.0255,False,True,None,50448,17414
+Nationwide Cohort,XGBoost with ACT-parity,0.15,Sweep,0.3972,0.2938,0.173,0.9733,0.3121,0.8136,0.3963,0.1723,0.24,0.2441,0.278,0.0196,False,True,None,49180,18682
+Nationwide Cohort,XGBoost with ACT-parity,0.16,Sweep,0.4147,0.2989,0.1767,0.9688,0.3327,0.8136,0.3963,0.1723,0.2354,0.2396,0.2705,0.0141,False,True,None,47918,19944
+Nationwide Cohort,XGBoost with ACT-parity,0.17,Sweep,0.4311,0.304,0.1804,0.9644,0.3523,0.8136,0.3963,0.1723,0.2311,0.2349,0.2576,0.0086,False,True,None,46723,21139
+Nationwide Cohort,XGBoost with ACT-parity,0.18,Sweep,0.4479,0.3094,0.1844,0.96,0.3722,0.8136,0.3963,0.1723,0.36,0.3638,0.2408,0.0036,False,True,None,45507,22355
+Nationwide Cohort,XGBoost with ACT-parity,0.19,Sweep,0.4637,0.3145,0.1883,0.9554,0.391,0.8136,0.3963,0.1723,0.3554,0.3595,0.2292,-0.0014,False,True,None,44358,23504
+Nationwide Cohort,XGBoost with ACT-parity,0.2,Sweep,0.4786,0.3192,0.1919,0.9491,0.409,0.8136,0.3963,0.1723,0.3491,0.3531,0.221,-0.0065,False,True,None,43234,24628
+Nationwide Cohort,XGBoost with ACT-parity,0.21,Sweep,0.4921,0.3236,0.1953,0.9431,0.4255,0.8136,0.3963,0.1723,0.3431,0.3478,0.2112,-0.0116,False,True,None,42211,25651
+Nationwide Cohort,XGBoost with ACT-parity,0.22,Sweep,0.5053,0.3279,0.1987,0.937,0.4415,0.8136,0.3963,0.1723,0.337,0.341,0.2053,-0.0165,False,True,None,41209,26653
+Nationwide Cohort,XGBoost with ACT-parity,0.23,Sweep,0.5178,0.3322,0.2021,0.931,0.4567,0.8136,0.3963,0.1723,0.331,0.3342,0.1932,-0.0215,False,True,None,40260,27602
+Nationwide Cohort,XGBoost with ACT-parity,0.24,Sweep,0.5307,0.337,0.206,0.926,0.4722,0.8136,0.3963,0.1723,0.326,0.3298,0.2085,-0.0259,False,True,None,39298,28564
+Nationwide Cohort,XGBoost with ACT-parity,0.25,Sweep,0.5425,0.3414,0.2096,0.9206,0.4866,0.8136,0.3963,0.1723,0.3206,0.3248,0.2152,-0.0305,False,True,None,38397,29465
+Nationwide Cohort,XGBoost with ACT-parity,0.26,Sweep,0.5539,0.3457,0.2131,0.915,0.5005,0.8136,0.3963,0.1723,0.315,0.3215,0.2121,-0.035,False,True,None,37528,30334
+Nationwide Cohort,XGBoost with ACT-parity,0.27,Sweep,0.5641,0.3493,0.2162,0.9081,0.5133,0.8136,0.3963,0.1723,0.3748,0.3877,0.2099,-0.0399,False,True,None,36713,31149
+Nationwide Cohort,XGBoost with ACT-parity,0.28,Sweep,0.5739,0.3527,0.2192,0.9012,0.5255,0.8136,0.3963,0.1723,0.4345,0.4544,0.2031,-0.0447,False,True,None,35929,31933
+Nationwide Cohort,XGBoost with ACT-parity,0.29,Sweep,0.5822,0.3557,0.2219,0.8952,0.536,0.8136,0.3963,0.1723,0.4285,0.4544,0.2043,-0.0498,False,True,None,35259,32603
+Nationwide Cohort,XGBoost with ACT-parity,0.3,Sweep,0.5918,0.3594,0.2252,0.8888,0.5479,0.8136,0.3963,0.1723,0.4888,0.5025,0.1988,-0.0543,False,True,None,34497,33365
+Nationwide Cohort,XGBoost with ACT-parity,0.31,Sweep,0.6003,0.363,0.2284,0.884,0.5584,0.8136,0.3963,0.1723,0.484,0.4992,0.1883,-0.059,False,True,None,33835,34027
+Nationwide Cohort,XGBoost with ACT-parity,0.32,Sweep,0.6086,0.3662,0.2313,0.8778,0.5688,0.8136,0.3963,0.1723,0.4778,0.4942,0.1759,-0.0637,False,True,None,33167,34695
+Nationwide Cohort,XGBoost with ACT-parity,0.33,Sweep,0.617,0.3696,0.2345,0.8718,0.5793,0.8136,0.3963,0.1723,0.4718,0.4917,0.189,-0.0682,False,True,None,32491,35371
+Nationwide Cohort,XGBoost with ACT-parity,0.34,Sweep,0.6255,0.3737,0.2381,0.8674,0.5897,0.8136,0.3963,0.1723,0.5341,0.5559,0.1771,-0.0724,False,True,None,31838,36024
+Nationwide Cohort,XGBoost with ACT-parity,0.35,Sweep,0.6336,0.3773,0.2415,0.862,0.5998,0.8136,0.3963,0.1723,0.5287,0.5501,0.1759,-0.0767,False,True,None,31196,36666
+Nationwide Cohort,XGBoost with ACT-parity,0.36,Sweep,0.6411,0.3807,0.2447,0.8562,0.6093,0.8136,0.3963,0.1723,0.5229,0.5427,0.167,-0.0812,False,True,None,30581,37281
+Nationwide Cohort,XGBoost with ACT-parity,0.37,Sweep,0.6483,0.3836,0.2477,0.8498,0.6185,0.8136,0.3963,0.1723,0.5165,0.5361,0.1706,-0.0857,False,True,None,29982,37880
+Nationwide Cohort,XGBoost with ACT-parity,0.38,Sweep,0.6549,0.3859,0.2503,0.842,0.6272,0.8136,0.3963,0.1723,0.5087,0.5262,0.1653,-0.0906,False,True,None,29401,38461
+Nationwide Cohort,XGBoost with ACT-parity,0.39,Sweep,0.6612,0.3879,0.2527,0.8334,0.6357,0.8136,0.3963,0.1723,0.5001,0.5171,0.16,-0.0956,False,True,None,28824,39038
+Nationwide Cohort,XGBoost with ACT-parity,0.4,Sweep,0.6682,0.3912,0.2561,0.8275,0.6447,0.8136,0.3963,0.1723,0.5608,0.5788,0.1629,-0.0998,False,True,None,28240,39622
+Nationwide Cohort,XGBoost with ACT-parity,0.41,Sweep,0.6744,0.3936,0.2589,0.8202,0.6529,0.8136,0.3963,0.1723,0.5535,0.573,0.1635,-0.1045,False,True,None,27691,40171
+Nationwide Cohort,XGBoost with ACT-parity,0.42,Sweep,0.6807,0.396,0.2618,0.8127,0.6612,0.8136,0.3963,0.1723,0.5461,0.5631,0.1692,-0.1091,False,True,None,27135,40727
+Nationwide Cohort,XGBoost with ACT-parity,0.43,Sweep,0.6869,0.3984,0.2647,0.8047,0.6695,0.8136,0.3963,0.1723,0.538,0.5556,0.1826,-0.1136,False,True,None,26574,41288
+Nationwide Cohort,XGBoost with ACT-parity,0.44,Sweep,0.6936,0.4012,0.2681,0.7969,0.6783,0.8136,0.3963,0.1723,0.5303,0.549,0.1732,-0.1176,False,True,None,25985,41877
+Nationwide Cohort,XGBoost with ACT-parity,0.45,Sweep,0.6997,0.4038,0.2713,0.7895,0.6864,0.8136,0.3963,0.1723,0.5228,0.5449,0.1663,-0.1218,False,True,None,25439,42423
+Nationwide Cohort,XGBoost with ACT-parity,0.46,Sweep,0.7062,0.4065,0.2747,0.7813,0.6951,0.8136,0.3963,0.1723,0.5146,0.5333,0.1712,-0.1257,False,True,None,24857,43005
+Nationwide Cohort,XGBoost with ACT-parity,0.47,Sweep,0.7118,0.4091,0.278,0.7744,0.7026,0.8136,0.3963,0.1723,0.5077,0.5242,0.1712,-0.13,False,True,None,24353,43509
+Nationwide Cohort,XGBoost with ACT-parity,0.48,Sweep,0.7178,0.4116,0.2813,0.7663,0.7106,0.8136,0.3963,0.1723,0.4996,0.5152,0.1714,-0.134,False,True,None,23809,44053
+Nationwide Cohort,XGBoost with ACT-parity,0.49,Sweep,0.7235,0.414,0.2848,0.7584,0.7184,0.8136,0.3963,0.1723,0.4917,0.5061,0.1768,-0.1381,False,True,None,23280,44582
+Nationwide Cohort,XGBoost with ACT-parity,0.5,Default,0.7288,0.416,0.2878,0.7499,0.7256,0.8136,0.3963,0.1723,0.4832,0.497,0.1759,-0.1424,False,True,None,22776,45086
+Nationwide Cohort,XGBoost baseline,0.1,Sweep,0.3131,0.2713,0.1571,0.9926,0.2126,0.8241,0.4167,0.169,0.0033,0.0107,0.1194,0.0516,False,True,None,55225,12637
+Nationwide Cohort,XGBoost baseline,0.11,Sweep,0.3267,0.275,0.1597,0.9916,0.2283,0.8241,0.4167,0.169,0.0077,0.0161,0.1131,0.0446,False,True,None,54289,13573
+Nationwide Cohort,XGBoost baseline,0.12,Sweep,0.3404,0.2787,0.1622,0.9895,0.2444,0.8241,0.4167,0.169,0.0091,0.0196,0.1123,0.0377,False,True,None,53319,14543
+Nationwide Cohort,XGBoost baseline,0.13,Sweep,0.3544,0.2827,0.1649,0.9874,0.2609,0.8241,0.4167,0.169,0.0136,0.0261,0.1152,0.031,False,True,None,52330,15532
+Nationwide Cohort,XGBoost baseline,0.14,Sweep,0.3687,0.2869,0.1679,0.986,0.2774,0.8241,0.4167,0.169,0.0122,0.0261,0.1239,0.0245,False,True,None,51339,16523
+Nationwide Cohort,XGBoost baseline,0.15,Sweep,0.3834,0.2911,0.1708,0.9828,0.2948,0.8241,0.4167,0.169,0.0495,0.0667,0.1207,0.0182,False,True,None,50286,17576
+Nationwide Cohort,XGBoost baseline,0.16,Sweep,0.3986,0.2955,0.174,0.9794,0.3127,0.8241,0.4167,0.169,0.0461,0.0667,0.1071,0.0121,False,True,None,49196,18666
+Nationwide Cohort,XGBoost baseline,0.17,Sweep,0.4139,0.3003,0.1775,0.9767,0.3307,0.8241,0.4167,0.169,0.0433,0.0667,0.1132,0.0064,False,True,None,48107,19755
+Nationwide Cohort,XGBoost baseline,0.18,Sweep,0.4293,0.3051,0.1809,0.9725,0.349,0.8241,0.4167,0.169,0.0392,0.0667,0.1095,0.0008,False,True,None,46989,20873
+Nationwide Cohort,XGBoost baseline,0.19,Sweep,0.4457,0.3106,0.1849,0.9696,0.3682,0.8241,0.4167,0.169,0.0362,0.0667,0.11,-0.0042,False,True,None,45826,22036
+Nationwide Cohort,XGBoost baseline,0.2,Sweep,0.462,0.316,0.1889,0.9646,0.3877,0.8241,0.4167,0.169,0.0313,0.0328,0.1083,-0.0091,False,True,None,44630,23232
+Nationwide Cohort,XGBoost baseline,0.21,Sweep,0.4767,0.3209,0.1926,0.96,0.4052,0.8241,0.4167,0.169,0.0266,0.032,0.1147,-0.0141,False,True,None,43556,24306
+Nationwide Cohort,XGBoost baseline,0.22,Sweep,0.4909,0.3254,0.1962,0.9531,0.4226,0.8241,0.4167,0.169,0.0198,0.027,0.114,-0.0191,False,True,None,42470,25392
+Nationwide Cohort,XGBoost baseline,0.23,Sweep,0.5042,0.3298,0.1996,0.947,0.4387,0.8241,0.4167,0.169,0.0137,0.0237,0.1171,-0.0241,False,True,None,41463,26399
+Nationwide Cohort,XGBoost baseline,0.24,Sweep,0.5167,0.3339,0.203,0.9405,0.454,0.8241,0.4167,0.169,0.032,0.0389,0.1049,-0.0291,False,True,None,40499,27363
+Nationwide Cohort,XGBoost baseline,0.25,Sweep,0.5292,0.3384,0.2066,0.9349,0.4692,0.8241,0.4167,0.169,0.0329,0.0454,0.1169,-0.0337,False,True,None,39554,28308
+Nationwide Cohort,XGBoost baseline,0.26,Sweep,0.541,0.3429,0.2102,0.9299,0.4835,0.8241,0.4167,0.169,0.0632,0.0705,0.1072,-0.0383,False,True,None,38662,29200
+Nationwide Cohort,XGBoost baseline,0.27,Sweep,0.5523,0.3474,0.2138,0.9251,0.4972,0.8241,0.4167,0.169,0.0584,0.0672,0.1034,-0.0429,False,True,None,37813,30049
+Nationwide Cohort,XGBoost baseline,0.28,Sweep,0.5627,0.3513,0.2172,0.9195,0.5099,0.8241,0.4167,0.169,0.0528,0.0664,0.1067,-0.0476,False,True,None,37010,30852
+Nationwide Cohort,XGBoost baseline,0.29,Sweep,0.5727,0.3551,0.2204,0.9134,0.5224,0.8241,0.4167,0.169,0.0467,0.0614,0.1022,-0.0523,False,True,None,36222,31640
+Nationwide Cohort,XGBoost baseline,0.3,Sweep,0.5826,0.3593,0.2239,0.9085,0.5344,0.8241,0.4167,0.169,0.0418,0.0581,0.1009,-0.0568,False,True,None,35466,32396
+Nationwide Cohort,XGBoost baseline,0.31,Sweep,0.5923,0.3632,0.2273,0.9026,0.5464,0.8241,0.4167,0.169,0.0399,0.0587,0.1021,-0.0613,False,True,None,34705,33157
+Nationwide Cohort,XGBoost baseline,0.32,Sweep,0.6017,0.3672,0.2308,0.897,0.5581,0.8241,0.4167,0.169,0.0408,0.0603,0.1011,-0.0656,False,True,None,33969,33893
+Nationwide Cohort,XGBoost baseline,0.33,Sweep,0.6109,0.3712,0.2344,0.8915,0.5694,0.8241,0.4167,0.169,0.0484,0.0676,0.0994,-0.0699,False,True,None,33250,34612
+Nationwide Cohort,XGBoost baseline,0.34,Sweep,0.6193,0.3744,0.2375,0.8843,0.5801,0.8241,0.4167,0.169,0.0608,0.0814,0.0978,-0.0745,False,True,None,32553,35309
+Nationwide Cohort,XGBoost baseline,0.35,Sweep,0.6277,0.378,0.2408,0.8782,0.5907,0.8241,0.4167,0.169,0.0612,0.078,0.096,-0.0789,False,True,None,31877,35985
+Nationwide Cohort,XGBoost baseline,0.36,Sweep,0.6361,0.3821,0.2446,0.8736,0.601,0.8241,0.4167,0.169,0.0566,0.0747,0.0953,-0.083,False,True,None,31223,36639
+Nationwide Cohort,XGBoost baseline,0.37,Sweep,0.6435,0.3851,0.2475,0.8665,0.6106,0.8241,0.4167,0.169,0.0665,0.0868,0.102,-0.0876,False,True,None,30597,37265
+Nationwide Cohort,XGBoost baseline,0.38,Sweep,0.6517,0.3887,0.2511,0.8595,0.621,0.8241,0.4167,0.169,0.1262,0.1468,0.0966,-0.0916,False,True,None,29918,37944
+Nationwide Cohort,XGBoost baseline,0.39,Sweep,0.6589,0.3915,0.2542,0.852,0.6304,0.8241,0.4167,0.169,0.1853,0.2085,0.0977,-0.0961,False,True,None,29298,38564
+Nationwide Cohort,XGBoost baseline,0.4,Sweep,0.6671,0.3957,0.2582,0.8461,0.6407,0.8241,0.4167,0.169,0.1795,0.2036,0.088,-0.0997,False,True,None,28640,39222
+Nationwide Cohort,XGBoost baseline,0.41,Sweep,0.6742,0.3988,0.2616,0.8388,0.6499,0.8241,0.4167,0.169,0.1721,0.1945,0.0854,-0.1039,False,True,None,28032,39830
+Nationwide Cohort,XGBoost baseline,0.42,Sweep,0.6818,0.402,0.2652,0.8306,0.6598,0.8241,0.4167,0.169,0.2972,0.322,0.0865,-0.1077,False,True,None,27375,40487
+Nationwide Cohort,XGBoost baseline,0.43,Sweep,0.6884,0.4042,0.2682,0.8207,0.6688,0.8241,0.4167,0.169,0.2874,0.3129,0.0898,-0.1119,False,True,None,26753,41109
+Nationwide Cohort,XGBoost baseline,0.44,Sweep,0.6959,0.4077,0.2721,0.8125,0.6787,0.8241,0.4167,0.169,0.2792,0.3088,0.0819,-0.1153,False,True,None,26097,41765
+Nationwide Cohort,XGBoost baseline,0.45,Sweep,0.7031,0.411,0.2761,0.8043,0.6882,0.8241,0.4167,0.169,0.3376,0.3639,0.0784,-0.1187,False,True,None,25465,42397
+Nationwide Cohort,XGBoost baseline,0.46,Sweep,0.7097,0.4138,0.2796,0.7954,0.697,0.8241,0.4167,0.169,0.3288,0.3581,0.0764,-0.1224,False,True,None,24864,42998
+Nationwide Cohort,XGBoost baseline,0.47,Sweep,0.7155,0.4162,0.2829,0.7873,0.7049,0.8241,0.4167,0.169,0.3207,0.3515,0.0764,-0.1266,False,True,None,24328,43534
+Nationwide Cohort,XGBoost baseline,0.48,Sweep,0.7221,0.4193,0.2868,0.7787,0.7137,0.8241,0.4167,0.169,0.3121,0.3441,0.0758,-0.1299,False,True,None,23731,44131
+Nationwide Cohort,XGBoost baseline,0.49,Sweep,0.7282,0.4217,0.2905,0.7695,0.7221,0.8241,0.4167,0.169,0.3028,0.3309,0.0749,-0.1335,False,True,None,23155,44707
+Nationwide Cohort,XGBoost baseline,0.5,Default,0.7342,0.4243,0.2943,0.7603,0.7304,0.8241,0.4167,0.169,0.2937,0.3226,0.0759,-0.137,False,True,None,22586,45276
+Nationwide Cohort,LightGBM baseline,0.1,Sweep,0.3484,0.2811,0.1638,0.9891,0.2537,0.8256,0.4237,0.1647,0.0558,0.0567,0.1008,0.0552,False,True,None,52769,15093
+Nationwide Cohort,LightGBM baseline,0.11,Sweep,0.3633,0.2852,0.1667,0.9859,0.2712,0.8256,0.4237,0.1647,0.0526,0.0534,0.1018,0.0485,False,True,None,51704,16158
+Nationwide Cohort,LightGBM baseline,0.12,Sweep,0.3792,0.2898,0.17,0.9835,0.2899,0.8256,0.4237,0.1647,0.0502,0.0518,0.1027,0.0423,False,True,None,50581,17281
+Nationwide Cohort,LightGBM baseline,0.13,Sweep,0.3947,0.2945,0.1732,0.9807,0.3081,0.8256,0.4237,0.1647,0.0473,0.0485,0.1059,0.0362,False,True,None,49478,18384
+Nationwide Cohort,LightGBM baseline,0.14,Sweep,0.4094,0.2989,0.1764,0.9775,0.3254,0.8256,0.4237,0.1647,0.0441,0.0452,0.108,0.0302,False,True,None,48426,19436
+Nationwide Cohort,LightGBM baseline,0.15,Sweep,0.4244,0.3037,0.1799,0.9747,0.3431,0.8256,0.4237,0.1647,0.1081,0.1102,0.108,0.0246,False,True,None,47358,20504
+Nationwide Cohort,LightGBM baseline,0.16,Sweep,0.4394,0.3088,0.1836,0.9722,0.3607,0.8256,0.4237,0.1647,0.1055,0.1094,0.1081,0.0191,False,True,None,46296,21566
+Nationwide Cohort,LightGBM baseline,0.17,Sweep,0.4526,0.3129,0.1866,0.9679,0.3764,0.8256,0.4237,0.1647,0.1012,0.1028,0.1231,0.0134,False,True,None,45328,22534
+Nationwide Cohort,LightGBM baseline,0.18,Sweep,0.4657,0.3172,0.1899,0.9635,0.3921,0.8256,0.4237,0.1647,0.0968,0.1011,0.1116,0.0079,False,True,None,44359,23503
+Nationwide Cohort,LightGBM baseline,0.19,Sweep,0.4785,0.3217,0.1932,0.9603,0.4072,0.8256,0.4237,0.1647,0.0936,0.1003,0.1079,0.0026,False,True,None,43440,24422
+Nationwide Cohort,LightGBM baseline,0.2,Sweep,0.4905,0.3256,0.1963,0.955,0.4218,0.8256,0.4237,0.1647,0.0884,0.0986,0.109,-0.0029,False,True,None,42534,25328
+Nationwide Cohort,LightGBM baseline,0.21,Sweep,0.5018,0.3289,0.199,0.9477,0.4359,0.8256,0.4237,0.1647,0.1477,0.1587,0.1092,-0.0086,False,True,None,41634,26228
+Nationwide Cohort,LightGBM baseline,0.22,Sweep,0.5137,0.3329,0.2022,0.9419,0.4504,0.8256,0.4237,0.1647,0.1419,0.1554,0.1126,-0.0137,False,True,None,40723,27139
+Nationwide Cohort,LightGBM baseline,0.23,Sweep,0.5253,0.3373,0.2056,0.9381,0.4643,0.8256,0.4237,0.1647,0.1381,0.1504,0.1256,-0.0186,False,True,None,39874,27988
+Nationwide Cohort,LightGBM baseline,0.24,Sweep,0.5363,0.3415,0.209,0.9335,0.4776,0.8256,0.4237,0.1647,0.1335,0.1471,0.1278,-0.0235,False,True,None,39046,28816
+Nationwide Cohort,LightGBM baseline,0.25,Sweep,0.546,0.3449,0.2118,0.9277,0.4896,0.8256,0.4237,0.1647,0.1277,0.1405,0.1091,-0.0287,False,True,None,38285,29577
+Nationwide Cohort,LightGBM baseline,0.26,Sweep,0.556,0.3488,0.215,0.923,0.5017,0.8256,0.4237,0.1647,0.123,0.1364,0.1098,-0.0336,False,True,None,37527,30335
+Nationwide Cohort,LightGBM baseline,0.27,Sweep,0.5653,0.3524,0.218,0.918,0.5132,0.8256,0.4237,0.1647,0.118,0.1355,0.1107,-0.0386,False,True,None,36804,31058
+Nationwide Cohort,LightGBM baseline,0.28,Sweep,0.5751,0.3564,0.2214,0.9133,0.5251,0.8256,0.4237,0.1647,0.1133,0.1298,0.1087,-0.0432,False,True,None,36057,31805
+Nationwide Cohort,LightGBM baseline,0.29,Sweep,0.5843,0.3603,0.2247,0.909,0.5363,0.8256,0.4237,0.1647,0.109,0.1273,0.1115,-0.0479,False,True,None,35362,32500
+Nationwide Cohort,LightGBM baseline,0.3,Sweep,0.5934,0.3644,0.2281,0.9049,0.5473,0.8256,0.4237,0.1647,0.1049,0.1223,0.107,-0.0525,False,True,None,34673,33189
+Nationwide Cohort,LightGBM baseline,0.31,Sweep,0.6021,0.3679,0.2312,0.8988,0.5583,0.8256,0.4237,0.1647,0.0988,0.1149,0.1064,-0.0571,False,True,None,33972,33890
+Nationwide Cohort,LightGBM baseline,0.32,Sweep,0.6108,0.3715,0.2345,0.8931,0.569,0.8256,0.4237,0.1647,0.1598,0.1791,0.1024,-0.0616,False,True,None,33287,34575
+Nationwide Cohort,LightGBM baseline,0.33,Sweep,0.6191,0.3748,0.2376,0.8864,0.5795,0.8256,0.4237,0.1647,0.1531,0.1725,0.1018,-0.0663,False,True,None,32607,35255
+Nationwide Cohort,LightGBM baseline,0.34,Sweep,0.6268,0.3781,0.2407,0.8808,0.5892,0.8256,0.4237,0.1647,0.1475,0.1658,0.1038,-0.0709,False,True,None,31986,35876
+Nationwide Cohort,LightGBM baseline,0.35,Sweep,0.635,0.3819,0.2442,0.8756,0.5994,0.8256,0.4237,0.1647,0.209,0.2251,0.1014,-0.0751,False,True,None,31339,36523
+Nationwide Cohort,LightGBM baseline,0.36,Sweep,0.6426,0.3852,0.2475,0.8694,0.6091,0.8256,0.4237,0.1647,0.2694,0.2851,0.0965,-0.0796,False,True,None,30709,37153
+Nationwide Cohort,LightGBM baseline,0.37,Sweep,0.6501,0.3883,0.2506,0.862,0.6188,0.8256,0.4237,0.1647,0.262,0.2785,0.0928,-0.084,False,True,None,30072,37790
+Nationwide Cohort,LightGBM baseline,0.38,Sweep,0.6574,0.3913,0.2537,0.8551,0.6282,0.8256,0.4237,0.1647,0.2551,0.2711,0.0928,-0.0884,False,True,None,29457,38405
+Nationwide Cohort,LightGBM baseline,0.39,Sweep,0.6648,0.3945,0.2571,0.8478,0.6377,0.8256,0.4237,0.1647,0.3145,0.3303,0.0902,-0.0926,False,True,None,28829,39033
+Nationwide Cohort,LightGBM baseline,0.4,Sweep,0.6724,0.3981,0.2607,0.8409,0.6475,0.8256,0.4237,0.1647,0.3075,0.3245,0.0885,-0.0964,False,True,None,28189,39673
+Nationwide Cohort,LightGBM baseline,0.41,Sweep,0.6788,0.4004,0.2636,0.8325,0.6561,0.8256,0.4237,0.1647,0.2992,0.3146,0.0884,-0.101,False,True,None,27609,40253
+Nationwide Cohort,LightGBM baseline,0.42,Sweep,0.6862,0.4035,0.2672,0.8242,0.6658,0.8256,0.4237,0.1647,0.4242,0.4397,0.0862,-0.1047,False,True,None,26965,40897
+Nationwide Cohort,LightGBM baseline,0.43,Sweep,0.6934,0.4075,0.2713,0.8186,0.6749,0.8256,0.4237,0.1647,0.4186,0.4364,0.0861,-0.1082,False,True,None,26373,41489
+Nationwide Cohort,LightGBM baseline,0.44,Sweep,0.6998,0.41,0.2745,0.8099,0.6835,0.8256,0.4237,0.1647,0.4099,0.4298,0.0891,-0.1123,False,True,None,25789,42073
+Nationwide Cohort,LightGBM baseline,0.45,Sweep,0.7067,0.4125,0.278,0.7995,0.693,0.8256,0.4237,0.1647,0.3995,0.4174,0.0928,-0.1159,False,True,None,25141,42721
+Nationwide Cohort,LightGBM baseline,0.46,Sweep,0.714,0.4162,0.2823,0.7914,0.7025,0.8256,0.4237,0.1647,0.3914,0.4083,0.0939,-0.1188,False,True,None,24505,43357
+Nationwide Cohort,LightGBM baseline,0.47,Sweep,0.7212,0.42,0.2869,0.7835,0.712,0.8256,0.4237,0.1647,0.3835,0.4025,0.0966,-0.1216,False,True,None,23876,43986
+Nationwide Cohort,LightGBM baseline,0.48,Sweep,0.7275,0.4234,0.291,0.7766,0.7203,0.8256,0.4237,0.1647,0.3766,0.3934,0.0984,-0.1249,False,True,None,23326,44536
+Nationwide Cohort,LightGBM baseline,0.49,Sweep,0.7339,0.4259,0.2949,0.7663,0.7291,0.8256,0.4237,0.1647,0.3663,0.3851,0.0993,-0.128,False,True,None,22711,45151
+Nationwide Cohort,LightGBM baseline,0.5,Default,0.7402,0.4284,0.2989,0.7559,0.7379,0.8256,0.4237,0.1647,0.3559,0.3785,0.0945,-0.131,False,True,None,22102,45760
+Nationwide Cohort,LightGBM with ACT-parity,0.1,Sweep,0.3407,0.2779,0.1617,0.9847,0.2455,0.8129,0.3999,0.1716,0.4513,0.4574,0.3916,0.0538,False,True,None,53213,14649
+Nationwide Cohort,LightGBM with ACT-parity,0.11,Sweep,0.3577,0.2825,0.165,0.9817,0.2654,0.8129,0.3999,0.1716,0.4484,0.4545,0.3787,0.0473,False,True,None,52011,15851
+Nationwide Cohort,LightGBM with ACT-parity,0.12,Sweep,0.3742,0.287,0.1682,0.9778,0.285,0.8129,0.3999,0.1716,0.4445,0.4508,0.3883,0.041,False,True,None,50820,17042
+Nationwide Cohort,LightGBM with ACT-parity,0.13,Sweep,0.3911,0.2919,0.1717,0.9746,0.3048,0.8129,0.3999,0.1716,0.4413,0.448,0.3776,0.035,False,True,None,49619,18243
+Nationwide Cohort,LightGBM with ACT-parity,0.14,Sweep,0.4069,0.2968,0.1751,0.9717,0.3234,0.8129,0.3999,0.1716,0.4384,0.4448,0.3785,0.0292,False,True,None,48498,19364
+Nationwide Cohort,LightGBM with ACT-parity,0.15,Sweep,0.422,0.3014,0.1785,0.9677,0.3414,0.8129,0.3999,0.1716,0.5011,0.5082,0.3695,0.0234,False,True,None,47399,20463
+Nationwide Cohort,LightGBM with ACT-parity,0.16,Sweep,0.4379,0.3062,0.1821,0.9632,0.3602,0.8129,0.3999,0.1716,0.4965,0.5032,0.3553,0.0179,False,True,None,46245,21617
+Nationwide Cohort,LightGBM with ACT-parity,0.17,Sweep,0.4514,0.3104,0.1852,0.9588,0.3763,0.8129,0.3999,0.1716,0.4921,0.499,0.3703,0.0122,False,True,None,45253,22609
+Nationwide Cohort,LightGBM with ACT-parity,0.18,Sweep,0.465,0.315,0.1886,0.9548,0.3926,0.8129,0.3999,0.1716,0.4881,0.4956,0.3605,0.0068,False,True,None,44257,23605
+Nationwide Cohort,LightGBM with ACT-parity,0.19,Sweep,0.4785,0.3197,0.1922,0.9516,0.4085,0.8129,0.3999,0.1716,0.4849,0.4931,0.3645,0.0017,False,True,None,43288,24574
+Nationwide Cohort,LightGBM with ACT-parity,0.2,Sweep,0.4908,0.324,0.1954,0.9475,0.4232,0.8129,0.3999,0.1716,0.4808,0.4891,0.3562,-0.0036,False,True,None,42381,25481
+Nationwide Cohort,LightGBM with ACT-parity,0.21,Sweep,0.5029,0.3278,0.1985,0.9409,0.4382,0.8129,0.3999,0.1716,0.5409,0.5497,0.3475,-0.0089,False,True,None,41441,26421
+Nationwide Cohort,LightGBM with ACT-parity,0.22,Sweep,0.514,0.3315,0.2015,0.9356,0.4517,0.8129,0.3999,0.1716,0.5356,0.5444,0.3473,-0.0142,False,True,None,40594,27268
+Nationwide Cohort,LightGBM with ACT-parity,0.23,Sweep,0.5256,0.3357,0.2048,0.9304,0.4658,0.8129,0.3999,0.1716,0.5304,0.5392,0.3396,-0.0192,False,True,None,39718,28144
+Nationwide Cohort,LightGBM with ACT-parity,0.24,Sweep,0.5364,0.3394,0.2079,0.9246,0.4791,0.8129,0.3999,0.1716,0.5913,0.601,0.3258,-0.0242,False,True,None,38881,28981
+Nationwide Cohort,LightGBM with ACT-parity,0.25,Sweep,0.5465,0.3427,0.2107,0.9177,0.4916,0.8129,0.3999,0.1716,0.5844,0.5944,0.3338,-0.0294,False,True,None,38080,29782
+Nationwide Cohort,LightGBM with ACT-parity,0.26,Sweep,0.5566,0.3464,0.2138,0.9125,0.5039,0.8129,0.3999,0.1716,0.5791,0.5897,0.3277,-0.0343,False,True,None,37304,30558
+Nationwide Cohort,LightGBM with ACT-parity,0.27,Sweep,0.5666,0.3504,0.2171,0.9077,0.5162,0.8129,0.3999,0.1716,0.5743,0.5849,0.3145,-0.039,False,True,None,36538,31324
+Nationwide Cohort,LightGBM with ACT-parity,0.28,Sweep,0.5757,0.3537,0.22,0.9015,0.5275,0.8129,0.3999,0.1716,0.5682,0.579,0.3097,-0.0439,False,True,None,35812,32050
+Nationwide Cohort,LightGBM with ACT-parity,0.29,Sweep,0.5847,0.3576,0.2233,0.8974,0.5385,0.8129,0.3999,0.1716,0.564,0.5749,0.2986,-0.0486,False,True,None,35128,32734
+Nationwide Cohort,LightGBM with ACT-parity,0.3,Sweep,0.5935,0.3609,0.2263,0.8909,0.5496,0.8129,0.3999,0.1716,0.5575,0.5688,0.2886,-0.0534,False,True,None,34417,33445
+Nationwide Cohort,LightGBM with ACT-parity,0.31,Sweep,0.6025,0.3641,0.2293,0.8835,0.561,0.8129,0.3999,0.1716,0.5502,0.5622,0.2912,-0.058,False,True,None,33678,34184
+Nationwide Cohort,LightGBM with ACT-parity,0.32,Sweep,0.6101,0.367,0.232,0.8774,0.5706,0.8129,0.3999,0.1716,0.544,0.5561,0.2815,-0.063,False,True,None,33054,34808
+Nationwide Cohort,LightGBM with ACT-parity,0.33,Sweep,0.6185,0.3702,0.2351,0.8705,0.5813,0.8129,0.3999,0.1716,0.5372,0.5486,0.2754,-0.0675,False,True,None,32363,35499
+Nationwide Cohort,LightGBM with ACT-parity,0.34,Sweep,0.6259,0.3733,0.238,0.8651,0.5905,0.8129,0.3999,0.1716,0.5318,0.5432,0.272,-0.0724,False,True,None,31772,36090
+Nationwide Cohort,LightGBM with ACT-parity,0.35,Sweep,0.6336,0.3765,0.2411,0.8587,0.6004,0.8129,0.3999,0.1716,0.6587,0.6707,0.2687,-0.0769,False,True,None,31133,36729
+Nationwide Cohort,LightGBM with ACT-parity,0.36,Sweep,0.6405,0.3792,0.2438,0.8525,0.6091,0.8129,0.3999,0.1716,0.6525,0.6678,0.2595,-0.0817,False,True,None,30562,37300
+Nationwide Cohort,LightGBM with ACT-parity,0.37,Sweep,0.6477,0.3823,0.2469,0.8465,0.6183,0.8129,0.3999,0.1716,0.6465,0.6628,0.2502,-0.0862,False,True,None,29963,37899
+Nationwide Cohort,LightGBM with ACT-parity,0.38,Sweep,0.6542,0.3849,0.2496,0.8397,0.6268,0.8129,0.3999,0.1716,0.6397,0.6545,0.2411,-0.0911,False,True,None,29403,38459
+Nationwide Cohort,LightGBM with ACT-parity,0.39,Sweep,0.6612,0.3876,0.2526,0.8324,0.6358,0.8129,0.3999,0.1716,0.6324,0.6446,0.2389,-0.0956,False,True,None,28805,39057
+Nationwide Cohort,LightGBM with ACT-parity,0.4,Sweep,0.6682,0.3903,0.2556,0.8246,0.645,0.8129,0.3999,0.1716,0.6246,0.6377,0.2366,-0.1,False,True,None,28195,39667
+Nationwide Cohort,LightGBM with ACT-parity,0.41,Sweep,0.6746,0.3931,0.2587,0.8182,0.6534,0.8129,0.3999,0.1716,0.6182,0.6312,0.2354,-0.1045,False,True,None,27644,40218
+Nationwide Cohort,LightGBM with ACT-parity,0.42,Sweep,0.6814,0.396,0.262,0.8109,0.6622,0.8129,0.3999,0.1716,0.6109,0.6242,0.2265,-0.1086,False,True,None,27058,40804
+Nationwide Cohort,LightGBM with ACT-parity,0.43,Sweep,0.6873,0.3982,0.2647,0.8031,0.6702,0.8129,0.3999,0.1716,0.6031,0.6179,0.2254,-0.1133,False,True,None,26517,41345
+Nationwide Cohort,LightGBM with ACT-parity,0.44,Sweep,0.6939,0.4009,0.268,0.7951,0.6789,0.8129,0.3999,0.1716,0.5951,0.6102,0.2307,-0.1174,False,True,None,25932,41930
+Nationwide Cohort,LightGBM with ACT-parity,0.45,Sweep,0.7005,0.4038,0.2715,0.7876,0.6876,0.8129,0.3999,0.1716,0.5876,0.6027,0.2291,-0.1212,False,True,None,25351,42511
+Nationwide Cohort,LightGBM with ACT-parity,0.46,Sweep,0.7065,0.406,0.2746,0.7787,0.6958,0.8129,0.3999,0.1716,0.5787,0.5945,0.2415,-0.1254,False,True,None,24789,43073
+Nationwide Cohort,LightGBM with ACT-parity,0.47,Sweep,0.713,0.4093,0.2785,0.7721,0.7042,0.8129,0.3999,0.1716,0.5721,0.5883,0.2399,-0.129,False,True,None,24235,43627
+Nationwide Cohort,LightGBM with ACT-parity,0.48,Sweep,0.7191,0.4123,0.2822,0.7651,0.7123,0.8129,0.3999,0.1716,0.5651,0.5812,0.2316,-0.1328,False,True,None,23698,44164
+Nationwide Cohort,LightGBM with ACT-parity,0.49,Sweep,0.7244,0.4141,0.2851,0.7561,0.7197,0.8129,0.3999,0.1716,0.5561,0.5722,0.2243,-0.1372,False,True,None,23180,44682
+Nationwide Cohort,LightGBM with ACT-parity,0.5,Default,0.7292,0.4146,0.2873,0.7444,0.727,0.8129,0.3999,0.1716,0.5444,0.5593,0.2167,-0.142,False,True,None,22648,45214
+Nationwide Cohort,HIR-M3 Transformer,0.1,Sweep,0.2518,0.2544,0.1459,0.9907,0.1425,0.7063,0.2631,0.2645,0.0048,0.014,0.0697,0.0446,False,True,None,59354,8508
+Nationwide Cohort,HIR-M3 Transformer,0.11,Sweep,0.2538,0.2548,0.1462,0.9903,0.1449,0.7063,0.2631,0.2645,0.0043,0.014,0.0628,0.0355,False,True,None,59211,8651
+Nationwide Cohort,HIR-M3 Transformer,0.12,Sweep,0.2548,0.255,0.1463,0.9899,0.1461,0.7063,0.2631,0.2645,0.004,0.014,0.0628,0.0261,False,True,None,59135,8727
+Nationwide Cohort,HIR-M3 Transformer,0.13,Sweep,0.2556,0.2552,0.1465,0.9899,0.147,0.7063,0.2631,0.2645,0.004,0.014,0.0628,0.0165,False,True,None,59082,8780
+Nationwide Cohort,HIR-M3 Transformer,0.14,Sweep,0.256,0.2552,0.1465,0.9898,0.1475,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,0.0066,False,True,None,59055,8807
+Nationwide Cohort,HIR-M3 Transformer,0.15,Sweep,0.2562,0.2553,0.1465,0.9898,0.1477,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,-0.0035,False,True,None,59040,8822
+Nationwide Cohort,HIR-M3 Transformer,0.16,Sweep,0.2563,0.2553,0.1466,0.9898,0.1478,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,-0.0139,False,True,None,59032,8830
+Nationwide Cohort,HIR-M3 Transformer,0.17,Sweep,0.2563,0.2553,0.1466,0.9898,0.1479,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,-0.0246,False,True,None,59029,8833
+Nationwide Cohort,HIR-M3 Transformer,0.18,Sweep,0.2564,0.2553,0.1466,0.9898,0.1479,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,-0.0355,False,True,None,59027,8835
+Nationwide Cohort,HIR-M3 Transformer,0.19,Sweep,0.2565,0.2554,0.1466,0.9898,0.1481,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,-0.0466,False,True,None,59020,8842
+Nationwide Cohort,HIR-M3 Transformer,0.2,Sweep,0.2567,0.2554,0.1466,0.9898,0.1483,0.7063,0.2631,0.2645,0.0039,0.014,0.0628,-0.058,False,True,None,59006,8856
+Nationwide Cohort,HIR-M3 Transformer,0.21,Sweep,0.257,0.2555,0.1467,0.9896,0.1487,0.7063,0.2631,0.2645,0.0036,0.014,0.0628,-0.0697,False,True,None,58980,8882
+Nationwide Cohort,HIR-M3 Transformer,0.22,Sweep,0.2572,0.2555,0.1467,0.9896,0.1489,0.7063,0.2631,0.2645,0.0036,0.014,0.0628,-0.0817,False,True,None,58967,8895
+Nationwide Cohort,HIR-M3 Transformer,0.23,Sweep,0.2573,0.2555,0.1467,0.9895,0.1491,0.7063,0.2631,0.2645,0.0035,0.014,0.0628,-0.094,False,True,None,58958,8904
+Nationwide Cohort,HIR-M3 Transformer,0.24,Sweep,0.2575,0.2555,0.1467,0.9892,0.1494,0.7063,0.2631,0.2645,0.0033,0.014,0.0628,-0.1066,False,True,None,58938,8924
+Nationwide Cohort,HIR-M3 Transformer,0.25,Sweep,0.258,0.2556,0.1468,0.9891,0.1499,0.7063,0.2631,0.2645,0.004,0.0149,0.0628,-0.1195,False,True,None,58904,8958
+Nationwide Cohort,HIR-M3 Transformer,0.26,Sweep,0.2588,0.2558,0.1469,0.989,0.1508,0.7063,0.2631,0.2645,0.0039,0.0149,0.0628,-0.1325,False,True,None,58851,9011
+Nationwide Cohort,HIR-M3 Transformer,0.27,Sweep,0.2598,0.256,0.1471,0.9889,0.152,0.7063,0.2631,0.2645,0.0046,0.0157,0.0628,-0.1459,False,True,None,58781,9081
+Nationwide Cohort,HIR-M3 Transformer,0.28,Sweep,0.2605,0.2562,0.1472,0.9889,0.1528,0.7063,0.2631,0.2645,0.0046,0.0157,0.0559,-0.1597,False,True,None,58731,9131
+Nationwide Cohort,HIR-M3 Transformer,0.29,Sweep,0.2616,0.2564,0.1473,0.9884,0.1541,0.7063,0.2631,0.2645,0.0041,0.0157,0.0559,-0.1737,False,True,None,58651,9211
+Nationwide Cohort,HIR-M3 Transformer,0.3,Sweep,0.2632,0.2567,0.1475,0.988,0.156,0.7063,0.2631,0.2645,0.0076,0.0196,0.0559,-0.1879,False,True,None,58535,9327
+Nationwide Cohort,HIR-M3 Transformer,0.31,Sweep,0.2646,0.257,0.1477,0.9872,0.1578,0.7063,0.2631,0.2645,0.0133,0.0261,0.0598,-0.2025,False,True,None,58422,9440
+Nationwide Cohort,HIR-M3 Transformer,0.32,Sweep,0.2667,0.2574,0.148,0.9865,0.1602,0.7063,0.2631,0.2645,0.0126,0.0261,0.0579,-0.2172,False,True,None,58271,9591
+Nationwide Cohort,HIR-M3 Transformer,0.33,Sweep,0.2693,0.2579,0.1484,0.9858,0.1633,0.7063,0.2631,0.2645,0.012,0.0261,0.0554,-0.232,False,True,None,58082,9780
+Nationwide Cohort,HIR-M3 Transformer,0.34,Sweep,0.2723,0.2584,0.1487,0.9842,0.167,0.7063,0.2631,0.2645,0.0104,0.0261,0.0683,-0.2471,False,True,None,57848,10014
+Nationwide Cohort,HIR-M3 Transformer,0.35,Sweep,0.2755,0.2591,0.1492,0.9833,0.1709,0.7063,0.2631,0.2645,0.016,0.0327,0.0701,-0.2623,False,True,None,57615,10247
+Nationwide Cohort,HIR-M3 Transformer,0.36,Sweep,0.2796,0.26,0.1498,0.9825,0.1757,0.7063,0.2631,0.2645,0.0152,0.0327,0.0794,-0.2774,False,True,None,57321,10541
+Nationwide Cohort,HIR-M3 Transformer,0.37,Sweep,0.284,0.2609,0.1504,0.9809,0.181,0.7063,0.2631,0.2645,0.0136,0.0327,0.0922,-0.2927,False,True,None,56994,10868
+Nationwide Cohort,HIR-M3 Transformer,0.38,Sweep,0.2893,0.2619,0.1512,0.9788,0.1873,0.7063,0.2631,0.2645,0.0115,0.0327,0.0967,-0.3078,False,True,None,56601,11261
+Nationwide Cohort,HIR-M3 Transformer,0.39,Sweep,0.2953,0.2629,0.1519,0.9756,0.1947,0.7063,0.2631,0.2645,0.0148,0.0392,0.1031,-0.3229,False,True,None,56136,11726
+Nationwide Cohort,HIR-M3 Transformer,0.4,Sweep,0.3029,0.2641,0.1528,0.9712,0.2041,0.7063,0.2631,0.2645,0.0235,0.0523,0.1057,-0.3372,False,True,None,55543,12319
+Nationwide Cohort,HIR-M3 Transformer,0.41,Sweep,0.3109,0.2654,0.1538,0.9665,0.2139,0.7063,0.2631,0.2645,0.0253,0.0588,0.1207,-0.3514,False,True,None,54922,12940
+Nationwide Cohort,HIR-M3 Transformer,0.42,Sweep,0.3201,0.2671,0.1551,0.962,0.2252,0.7063,0.2631,0.2645,0.0339,0.0719,0.1421,-0.3649,False,True,None,54214,13648
+Nationwide Cohort,HIR-M3 Transformer,0.43,Sweep,0.3292,0.2685,0.1562,0.956,0.2365,0.7063,0.2631,0.2645,0.054,0.057,0.1379,-0.3786,False,True,None,53494,14368
+Nationwide Cohort,HIR-M3 Transformer,0.44,Sweep,0.3385,0.27,0.1574,0.9498,0.2481,0.7063,0.2631,0.2645,0.087,0.0944,0.1519,-0.3923,False,True,None,52755,15107
+Nationwide Cohort,HIR-M3 Transformer,0.45,Sweep,0.349,0.2721,0.1589,0.9444,0.261,0.7063,0.2631,0.2645,0.1078,0.1152,0.1919,-0.4051,False,True,None,51945,15917
+Nationwide Cohort,HIR-M3 Transformer,0.46,Sweep,0.3599,0.2738,0.1604,0.937,0.2746,0.7063,0.2631,0.2645,0.1134,0.1238,0.218,-0.4176,False,True,None,51075,16787
+Nationwide Cohort,HIR-M3 Transformer,0.47,Sweep,0.3728,0.276,0.1621,0.9284,0.2906,0.7063,0.2631,0.2645,0.1179,0.1306,0.2475,-0.4285,False,True,None,50054,17808
+Nationwide Cohort,HIR-M3 Transformer,0.48,Sweep,0.3869,0.2781,0.1639,0.9171,0.3085,0.7063,0.2631,0.2645,0.1393,0.1544,0.2707,-0.438,False,True,None,48897,18965
+Nationwide Cohort,HIR-M3 Transformer,0.49,Sweep,0.4023,0.2804,0.1659,0.904,0.3281,0.7063,0.2631,0.2645,0.172,0.1878,0.2833,-0.4459,False,True,None,47623,20239
+Nationwide Cohort,HIR-M3 Transformer,0.5,Default,0.4224,0.2828,0.1683,0.8841,0.3541,0.7063,0.2631,0.2645,0.1782,0.1941,0.3065,-0.4488,False,True,None,45913,21949
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.1,Sweep,0.6319,0.283,0.1889,0.5638,0.642,0.655,0.2163,0.1093,0.0971,0.1386,0.1729,0.038,False,True,None,26092,41770
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.11,ACT-Parity,0.713,0.288,0.2116,0.4506,0.7518,0.655,0.2163,0.1093,0.184,0.2366,0.1734,0.0313,False,True,None,18613,49249
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.12,Sweep,0.7473,0.2826,0.2227,0.3863,0.8007,0.655,0.2163,0.1093,0.1863,0.2165,0.147,0.0261,False,True,None,15162,52700
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.13,Sweep,0.7713,0.2743,0.232,0.3355,0.8358,0.655,0.2163,0.1093,0.1355,0.1636,0.1069,0.0218,False,True,None,12642,55220
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.14,Sweep,0.7976,0.2662,0.2497,0.285,0.8734,0.655,0.2163,0.1093,0.1516,0.1766,0.0962,0.0188,False,True,None,9976,57886
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.15,Sweep,0.8162,0.2555,0.2671,0.2448,0.9007,0.655,0.2163,0.1093,0.1782,0.2127,0.0903,0.0163,False,True,None,8013,59849
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.16,Sweep,0.8254,0.2406,0.2736,0.2147,0.9157,0.655,0.2163,0.1093,0.1481,0.173,0.0702,0.0137,False,True,None,6860,61002
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.17,Sweep,0.833,0.2229,0.2783,0.1859,0.9287,0.655,0.2163,0.1093,0.1192,0.1425,0.0583,0.0112,False,True,None,5839,62023
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.18,Sweep,0.8393,0.2064,0.2835,0.1622,0.9394,0.655,0.2163,0.1093,0.0956,0.1143,0.0641,0.0093,False,True,None,5002,62860
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.19,Sweep,0.8458,0.1892,0.2932,0.1397,0.9502,0.655,0.2163,0.1093,0.073,0.0854,0.0718,0.0078,False,True,None,4165,63697
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.2,Sweep,0.8507,0.1695,0.2988,0.1183,0.959,0.655,0.2163,0.1093,0.1183,0.1298,0.064,0.0063,False,True,None,3460,64402
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.21,Sweep,0.8551,0.1504,0.3075,0.0995,0.9669,0.655,0.2163,0.1093,0.0995,0.1083,0.0418,0.0051,False,True,None,2829,65033
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.22,Sweep,0.859,0.1268,0.3133,0.0795,0.9742,0.655,0.2163,0.1093,0.0795,0.0901,0.0412,0.0039,False,True,None,2218,65644
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.23,Sweep,0.8629,0.1024,0.3266,0.0607,0.9815,0.655,0.2163,0.1093,0.0607,0.0777,0.0323,0.003,False,True,None,1626,66236
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.24,Sweep,0.8656,0.0767,0.3325,0.0434,0.9871,0.655,0.2163,0.1093,0.0434,0.0521,0.036,0.002,False,True,None,1140,66722
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.25,Sweep,0.8684,0.0445,0.3438,0.0238,0.9933,0.655,0.2163,0.1093,0.0238,0.0289,0.0154,0.0011,False,True,None,605,67257
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.26,Sweep,0.8697,0.0247,0.3436,0.0128,0.9964,0.655,0.2163,0.1093,0.0128,0.019,0.0172,0.0005,False,True,None,326,67536
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.27,Sweep,0.8709,0.0099,0.3964,0.005,0.9989,0.655,0.2163,0.1093,0.005,0.0091,0.0097,0.0003,False,True,None,111,67751
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.28,Sweep,0.871,0.0064,0.4242,0.0032,0.9994,0.655,0.2163,0.1093,0.0032,0.005,0.0097,0.0002,False,True,None,66,67796
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.29,Sweep,0.8711,0.0025,0.3929,0.0013,0.9997,0.655,0.2163,0.1093,0.0013,0.0025,0.0048,0.0001,False,True,None,28,67834
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.3,Sweep,0.8712,0.0007,0.3333,0.0003,0.9999,0.655,0.2163,0.1093,0.0003,0.0018,0.0003,0.0,False,True,None,9,67853
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.31,Sweep,0.8712,0.0002,0.25,0.0001,0.9999,0.655,0.2163,0.1093,0.0001,0.0008,0.0003,-0.0,False,True,None,4,67858
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.32,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0003,-0.0,False,True,None,2,67860
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.33,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0001,-0.0,False,True,None,1,67861
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.34,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0001,-0.0,False,True,None,1,67861
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.35,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.36,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.37,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.38,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.39,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.4,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.41,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.42,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.43,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.44,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.45,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.46,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.47,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.48,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.49,Sweep,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.5,Default,0.8712,0.0,0.0,0.0,1.0,0.655,0.2163,0.1093,0.0,0.0,0.0,0.0,False,True,None,0,67862
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.1,Sweep,0.2716,0.2605,0.1498,0.9961,0.1644,0.8239,0.4156,0.173,0.0026,0.0065,0.0679,0.0474,False,True,None,58106,9756
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.11,Sweep,0.2843,0.2637,0.152,0.995,0.1793,0.8239,0.4156,0.173,0.0039,0.0089,0.0898,0.0398,False,True,None,57219,10643
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.12,Sweep,0.2966,0.2669,0.1541,0.9941,0.1935,0.8239,0.4156,0.173,0.0048,0.0107,0.1061,0.0322,False,True,None,56371,11491
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.13,Sweep,0.3088,0.27,0.1563,0.9927,0.2076,0.8239,0.4156,0.173,0.0052,0.0125,0.1148,0.0247,False,True,None,55522,12340
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.14,Sweep,0.3212,0.2735,0.1586,0.9919,0.222,0.8239,0.4156,0.173,0.0062,0.0143,0.1159,0.0174,False,True,None,54665,13197
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.15,Sweep,0.3345,0.2771,0.1611,0.9905,0.2375,0.8239,0.4156,0.173,0.0066,0.0161,0.1192,0.0104,False,True,None,53738,14124
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.16,Sweep,0.3478,0.2809,0.1637,0.9889,0.253,0.8239,0.4156,0.173,0.0085,0.0196,0.11,0.0034,False,True,None,52808,15054
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.17,Sweep,0.361,0.2846,0.1663,0.9866,0.2686,0.8239,0.4156,0.173,0.0128,0.0261,0.113,-0.0034,False,True,None,51868,15994
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.18,Sweep,0.3751,0.2887,0.1691,0.9844,0.285,0.8239,0.4156,0.173,0.0171,0.0327,0.1165,-0.0099,False,True,None,50875,16987
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.19,Sweep,0.3896,0.2929,0.1722,0.9817,0.3021,0.8239,0.4156,0.173,0.0484,0.0667,0.1142,-0.0162,False,True,None,49844,18018
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.2,Sweep,0.4051,0.2976,0.1755,0.9785,0.3204,0.8239,0.4156,0.173,0.0452,0.0667,0.1143,-0.022,False,True,None,48733,19129
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.21,Sweep,0.4214,0.3026,0.1791,0.9747,0.3396,0.8239,0.4156,0.173,0.0414,0.0667,0.1119,-0.0274,False,True,None,47562,20300
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.22,Sweep,0.4377,0.3078,0.1829,0.9707,0.3588,0.8239,0.4156,0.173,0.0374,0.0404,0.1215,-0.0325,False,True,None,46391,21471
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.23,Sweep,0.4542,0.3131,0.1868,0.9657,0.3785,0.8239,0.4156,0.173,0.0323,0.0344,0.1176,-0.0373,False,True,None,45183,22679
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.24,Sweep,0.4707,0.3185,0.1909,0.9603,0.3983,0.8239,0.4156,0.173,0.0322,0.0364,0.1153,-0.0419,False,True,None,43969,23893
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.25,Sweep,0.4862,0.3236,0.1949,0.9542,0.417,0.8239,0.4156,0.173,0.0261,0.0322,0.1197,-0.0464,False,True,None,42807,25055
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.26,Sweep,0.5004,0.3282,0.1985,0.9474,0.4344,0.8239,0.4156,0.173,0.0193,0.0273,0.1175,-0.0511,False,True,None,41722,26140
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.27,Sweep,0.5144,0.3332,0.2024,0.942,0.4512,0.8239,0.4156,0.173,0.0204,0.0297,0.1011,-0.0555,False,True,None,40679,27183
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.28,Sweep,0.5282,0.3379,0.2062,0.9348,0.4681,0.8239,0.4156,0.173,0.0681,0.0807,0.1093,-0.0598,False,True,None,39619,28243
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.29,Sweep,0.5409,0.3429,0.2102,0.9301,0.4834,0.8239,0.4156,0.173,0.0634,0.0722,0.1065,-0.064,False,True,None,38674,29188
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.3,Sweep,0.5527,0.3474,0.2139,0.924,0.4978,0.8239,0.4156,0.173,0.0574,0.0664,0.1058,-0.0685,False,True,None,37765,30097
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.31,Sweep,0.5643,0.3518,0.2176,0.9179,0.5121,0.8239,0.4156,0.173,0.0512,0.0639,0.1058,-0.0728,False,True,None,36870,30992
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.32,Sweep,0.5752,0.3561,0.2212,0.9118,0.5255,0.8239,0.4156,0.173,0.0451,0.0598,0.1043,-0.0771,False,True,None,36025,31837
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.33,Sweep,0.586,0.3604,0.225,0.9056,0.5387,0.8239,0.4156,0.173,0.039,0.0532,0.106,-0.0813,False,True,None,35186,32676
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.34,Sweep,0.5966,0.365,0.2289,0.8999,0.5518,0.8239,0.4156,0.173,0.0372,0.0546,0.1041,-0.0852,False,True,None,34364,33498
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.35,Sweep,0.6068,0.3694,0.2328,0.8939,0.5644,0.8239,0.4156,0.173,0.0377,0.0554,0.1014,-0.0892,False,True,None,33568,34294
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.36,Sweep,0.6166,0.3737,0.2367,0.8881,0.5765,0.8239,0.4156,0.173,0.0384,0.0578,0.0985,-0.0932,False,True,None,32802,35060
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.37,Sweep,0.6258,0.3772,0.2401,0.8798,0.5882,0.8239,0.4156,0.173,0.0562,0.0748,0.0948,-0.0974,False,True,None,32034,35828
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.38,Sweep,0.6351,0.3815,0.244,0.8739,0.5998,0.8239,0.4156,0.173,0.0635,0.0838,0.0971,-0.1011,False,True,None,31301,36561
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.39,Sweep,0.6435,0.3852,0.2476,0.8673,0.6104,0.8239,0.4156,0.173,0.0634,0.0829,0.1025,-0.1053,False,True,None,30616,37246
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.4,Sweep,0.6518,0.3883,0.2509,0.8581,0.6213,0.8239,0.4156,0.173,0.1248,0.146,0.1053,-0.1094,False,True,None,29891,37971
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.41,Sweep,0.6606,0.3926,0.2551,0.8514,0.6324,0.8239,0.4156,0.173,0.1847,0.2094,0.1071,-0.1129,False,True,None,29173,38689
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.42,Sweep,0.6688,0.3963,0.2589,0.8438,0.6429,0.8239,0.4156,0.173,0.1772,0.2036,0.0895,-0.1166,False,True,None,28486,39376
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.43,Sweep,0.6768,0.3997,0.2627,0.8353,0.6534,0.8239,0.4156,0.173,0.1686,0.1961,0.0898,-0.1202,False,True,None,27792,40070
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.44,Sweep,0.6851,0.403,0.2666,0.8253,0.6643,0.8239,0.4156,0.173,0.292,0.3179,0.1006,-0.1235,False,True,None,27060,40802
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.45,Sweep,0.6929,0.4064,0.2705,0.8162,0.6746,0.8239,0.4156,0.173,0.2828,0.3088,0.0944,-0.1268,False,True,None,26370,41492
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.46,Sweep,0.7008,0.4102,0.2749,0.8077,0.685,0.8239,0.4156,0.173,0.341,0.3754,0.082,-0.1297,False,True,None,25683,42179
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.47,Sweep,0.7083,0.4131,0.2788,0.797,0.6952,0.8239,0.4156,0.173,0.3304,0.3754,0.0771,-0.1328,False,True,None,24989,42873
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.48,Sweep,0.7153,0.4158,0.2826,0.7865,0.7047,0.8239,0.4156,0.173,0.3199,0.3507,0.0796,-0.1361,False,True,None,24331,43531
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.49,Sweep,0.7226,0.4191,0.287,0.7768,0.7146,0.8239,0.4156,0.173,0.3101,0.3383,0.0767,-0.1388,False,True,None,23661,44201
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.5,Default,0.7293,0.4223,0.2912,0.7682,0.7236,0.8239,0.4156,0.173,0.3016,0.3292,0.0752,-0.1419,False,True,None,23058,44804
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.1,Sweep,0.3146,0.2714,0.1572,0.9911,0.2146,0.8136,0.3963,0.1538,0.2577,0.2597,0.2805,0.0516,False,True,None,55098,12764
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.11,Sweep,0.3326,0.276,0.1604,0.9878,0.2357,0.8136,0.3963,0.1538,0.2544,0.2571,0.2729,0.0449,False,True,None,53820,14042
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.12,Sweep,0.3516,0.2812,0.164,0.9844,0.2581,0.8136,0.3963,0.1538,0.2511,0.2544,0.2713,0.0387,False,True,None,52469,15393
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.13,Sweep,0.3709,0.2865,0.1678,0.9807,0.2808,0.8136,0.3963,0.1538,0.2473,0.251,0.2688,0.0327,False,True,None,51092,16770
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.14,Sweep,0.3896,0.2916,0.1714,0.9754,0.303,0.8136,0.3963,0.1538,0.2421,0.2466,0.2595,0.0268,False,True,None,49731,18131
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.15,Sweep,0.409,0.2974,0.1756,0.9711,0.3259,0.8136,0.3963,0.1538,0.2377,0.2421,0.2778,0.0214,False,True,None,48339,19523
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.16,Sweep,0.4276,0.303,0.1797,0.9659,0.348,0.8136,0.3963,0.1538,0.2326,0.2364,0.2562,0.0162,False,True,None,46992,20870
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.17,Sweep,0.446,0.3088,0.184,0.9609,0.3699,0.8136,0.3963,0.1538,0.3609,0.3645,0.2424,0.0113,False,True,None,45651,22211
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.18,Sweep,0.4631,0.3142,0.188,0.9548,0.3904,0.8136,0.3963,0.1538,0.3548,0.3589,0.2296,0.0064,False,True,None,44386,23476
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.19,Sweep,0.4795,0.3194,0.1921,0.9483,0.4102,0.8136,0.3963,0.1538,0.3483,0.3524,0.2196,0.0016,False,True,None,43159,24703
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.2,Sweep,0.4949,0.3245,0.196,0.942,0.4288,0.8136,0.3963,0.1538,0.342,0.3465,0.209,-0.0031,False,True,None,42006,25856
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.21,Sweep,0.5093,0.3294,0.1999,0.9355,0.4463,0.8136,0.3963,0.1538,0.3355,0.3392,0.1927,-0.0077,False,True,None,40914,26948
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.22,Sweep,0.5229,0.3341,0.2037,0.9294,0.4628,0.8136,0.3963,0.1538,0.3294,0.3331,0.192,-0.0123,False,True,None,39885,27977
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.23,Sweep,0.5364,0.3389,0.2076,0.9224,0.4793,0.8136,0.3963,0.1538,0.3224,0.3273,0.2126,-0.0167,False,True,None,38846,29016
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.24,Sweep,0.5494,0.3439,0.2117,0.9171,0.495,0.8136,0.3963,0.1538,0.3171,0.3215,0.2171,-0.0208,False,True,None,37871,29991
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.25,Sweep,0.5609,0.348,0.2152,0.9097,0.5094,0.8136,0.3963,0.1538,0.3764,0.3877,0.2095,-0.0253,False,True,None,36958,30904
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.26,Sweep,0.5722,0.3524,0.2189,0.9036,0.5232,0.8136,0.3963,0.1538,0.3702,0.3877,0.1999,-0.0296,False,True,None,36088,31774
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.27,Sweep,0.5817,0.3557,0.2219,0.8964,0.5352,0.8136,0.3963,0.1538,0.4297,0.4544,0.2042,-0.0343,False,True,None,35315,32547
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.28,Sweep,0.5918,0.3594,0.2252,0.8889,0.5479,0.8136,0.3963,0.1538,0.4889,0.5033,0.1984,-0.0387,False,True,None,34499,33363
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.29,Sweep,0.601,0.363,0.2285,0.8825,0.5594,0.8136,0.3963,0.1538,0.4825,0.4992,0.1873,-0.0431,False,True,None,33764,34098
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.3,Sweep,0.6106,0.3669,0.232,0.8759,0.5714,0.8136,0.3963,0.1538,0.4759,0.4942,0.1796,-0.0472,False,True,None,32996,34866
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.31,Sweep,0.6198,0.3712,0.2358,0.8711,0.5827,0.8136,0.3963,0.1538,0.4711,0.4917,0.1849,-0.0512,False,True,None,32288,35574
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.32,Sweep,0.6293,0.3755,0.2398,0.8653,0.5944,0.8136,0.3963,0.1538,0.532,0.5526,0.1717,-0.0548,False,True,None,31543,36319
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.33,Sweep,0.6375,0.3787,0.243,0.8578,0.6049,0.8136,0.3963,0.1538,0.5245,0.5452,0.1709,-0.059,False,True,None,30854,37008
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.34,Sweep,0.6454,0.3824,0.2465,0.8523,0.6148,0.8136,0.3963,0.1538,0.519,0.5377,0.1607,-0.0631,False,True,None,30224,37638
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.35,Sweep,0.6533,0.3853,0.2496,0.8435,0.6251,0.8136,0.3963,0.1538,0.5102,0.527,0.158,-0.0672,False,True,None,29535,38327
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.36,Sweep,0.6608,0.3883,0.2529,0.8356,0.635,0.8136,0.3963,0.1538,0.5023,0.5196,0.1586,-0.0712,False,True,None,28883,38979
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.37,Sweep,0.6682,0.3912,0.2561,0.8277,0.6446,0.8136,0.3963,0.1538,0.561,0.5813,0.1628,-0.0752,False,True,None,28249,39613
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.38,Sweep,0.6745,0.3932,0.2587,0.8187,0.6532,0.8136,0.3963,0.1538,0.552,0.5713,0.1592,-0.0797,False,True,None,27659,40203
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.39,Sweep,0.6818,0.3963,0.2622,0.8108,0.6627,0.8136,0.3963,0.1538,0.5441,0.5598,0.1676,-0.0834,False,True,None,27026,40836
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.4,Sweep,0.6891,0.3994,0.2659,0.8027,0.6723,0.8136,0.3963,0.1538,0.536,0.554,0.1794,-0.0869,False,True,None,26389,41473
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.41,Sweep,0.6965,0.4026,0.2697,0.7938,0.6821,0.8136,0.3963,0.1538,0.5272,0.5474,0.1708,-0.0902,False,True,None,25733,42129
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.42,Sweep,0.7031,0.4052,0.2731,0.7852,0.691,0.8136,0.3963,0.1538,0.5185,0.5375,0.1754,-0.0938,False,True,None,25131,42731
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.43,Sweep,0.7099,0.408,0.2767,0.7762,0.7001,0.8136,0.3963,0.1538,0.5096,0.5275,0.1679,-0.0971,False,True,None,24518,43344
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.44,Sweep,0.7162,0.411,0.2805,0.7684,0.7085,0.8136,0.3963,0.1538,0.5018,0.5168,0.1738,-0.1005,False,True,None,23949,43913
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.45,Sweep,0.7223,0.4134,0.284,0.7596,0.7168,0.8136,0.3963,0.1538,0.493,0.5052,0.1709,-0.104,False,True,None,23383,44479
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.46,Sweep,0.7287,0.4161,0.2879,0.7506,0.7255,0.8136,0.3963,0.1538,0.4839,0.497,0.1684,-0.1071,False,True,None,22792,45070
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.47,Sweep,0.7344,0.4176,0.291,0.7393,0.7337,0.8136,0.3963,0.1538,0.4726,0.4895,0.1757,-0.1105,False,True,None,22204,45658
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.48,Sweep,0.7404,0.4198,0.2948,0.7292,0.742,0.8136,0.3963,0.1538,0.4625,0.4804,0.1656,-0.1135,False,True,None,21625,46237
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.49,Sweep,0.746,0.4218,0.2984,0.719,0.75,0.8136,0.3963,0.1538,0.4524,0.473,0.1581,-0.1166,False,True,None,21063,46799
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.5,Default,0.7524,0.4245,0.303,0.709,0.7588,0.8136,0.3963,0.1538,0.4423,0.4647,0.1624,-0.1188,False,True,None,20455,47407
+Texas Cohort,CatBoost with ACT-parity,0.1,Sweep,0.3263,0.3017,0.178,0.9902,0.2119,0.8076,0.4309,0.1713,0.2402,0.25,0.4208,0.0709,False,True,None,10214,2276
+Texas Cohort,CatBoost with ACT-parity,0.11,Sweep,0.3391,0.3055,0.1807,0.9891,0.2271,0.8076,0.4309,0.1713,0.2391,0.25,0.485,0.0639,False,True,None,10051,2439
+Texas Cohort,CatBoost with ACT-parity,0.12,Sweep,0.3527,0.3095,0.1835,0.9869,0.2434,0.8076,0.4309,0.1713,0.2369,0.25,0.4705,0.0571,False,True,None,9873,2617
+Texas Cohort,CatBoost with ACT-parity,0.13,Sweep,0.3647,0.3128,0.186,0.9837,0.258,0.8076,0.4309,0.1713,0.2337,0.25,0.4575,0.05,False,True,None,9711,2779
+Texas Cohort,CatBoost with ACT-parity,0.14,Sweep,0.3766,0.3161,0.1884,0.9798,0.2727,0.8076,0.4309,0.1713,0.2298,0.25,0.4433,0.043,False,True,None,9548,2942
+Texas Cohort,CatBoost with ACT-parity,0.15,Sweep,0.3894,0.3197,0.1912,0.976,0.2883,0.8076,0.4309,0.1713,0.226,0.25,0.5037,0.0363,False,True,None,9374,3116
+Texas Cohort,CatBoost with ACT-parity,0.16,Sweep,0.4041,0.3245,0.1947,0.9739,0.3059,0.8076,0.4309,0.1713,0.2239,0.25,0.4882,0.0304,False,True,None,9183,3307
+Texas Cohort,CatBoost with ACT-parity,0.17,Sweep,0.4151,0.3274,0.197,0.9684,0.3198,0.8076,0.4309,0.1713,0.2184,0.25,0.4741,0.0235,False,True,None,9025,3465
+Texas Cohort,CatBoost with ACT-parity,0.18,Sweep,0.4273,0.3312,0.1999,0.9646,0.3347,0.8076,0.4309,0.1713,0.2146,0.25,0.4585,0.0172,False,True,None,8859,3631
+Texas Cohort,CatBoost with ACT-parity,0.19,Sweep,0.4404,0.3356,0.2032,0.9613,0.3506,0.8076,0.4309,0.1713,0.2113,0.25,0.5177,0.0114,False,True,None,8684,3806
+Texas Cohort,CatBoost with ACT-parity,0.2,Sweep,0.4521,0.3389,0.206,0.9553,0.3654,0.8076,0.4309,0.1713,0.4553,0.5,0.5027,0.0051,False,True,None,8515,3975
+Texas Cohort,CatBoost with ACT-parity,0.21,Sweep,0.4644,0.3432,0.2093,0.9521,0.3803,0.8076,0.4309,0.1713,0.4521,0.5,0.4877,-0.0006,False,True,None,8350,4140
+Texas Cohort,CatBoost with ACT-parity,0.22,Sweep,0.4785,0.3483,0.2134,0.9483,0.3975,0.8076,0.4309,0.1713,0.4483,0.5,0.4739,-0.0056,False,True,None,8160,4330
+Texas Cohort,CatBoost with ACT-parity,0.23,Sweep,0.4927,0.3533,0.2174,0.9428,0.4151,0.8076,0.4309,0.1713,0.4428,0.5,0.5336,-0.0104,False,True,None,7962,4528
+Texas Cohort,CatBoost with ACT-parity,0.24,Sweep,0.5039,0.3567,0.2204,0.9357,0.4295,0.8076,0.4309,0.1713,0.4357,0.5,0.519,-0.0161,False,True,None,7796,4694
+Texas Cohort,CatBoost with ACT-parity,0.25,Sweep,0.5158,0.3614,0.2241,0.9319,0.4441,0.8076,0.4309,0.1713,0.4319,0.4362,0.5043,-0.0211,False,True,None,7634,4856
+Texas Cohort,CatBoost with ACT-parity,0.26,Sweep,0.5282,0.3659,0.228,0.9259,0.4596,0.8076,0.4309,0.1713,0.4259,0.4313,0.4945,-0.0258,False,True,None,7457,5033
+Texas Cohort,CatBoost with ACT-parity,0.27,Sweep,0.5409,0.3707,0.2321,0.9199,0.4756,0.8076,0.4309,0.1713,0.4199,0.4257,0.472,-0.0302,False,True,None,7276,5214
+Texas Cohort,CatBoost with ACT-parity,0.28,Sweep,0.552,0.3742,0.2354,0.9112,0.4901,0.8076,0.4309,0.1713,0.4112,0.417,0.4579,-0.0352,False,True,None,7106,5384
+Texas Cohort,CatBoost with ACT-parity,0.29,Sweep,0.5629,0.3784,0.2392,0.9052,0.5038,0.8076,0.4309,0.1713,0.4052,0.41,0.4469,-0.0398,False,True,None,6948,5542
+Texas Cohort,CatBoost with ACT-parity,0.3,Sweep,0.5718,0.3806,0.2417,0.8949,0.5161,0.8076,0.4309,0.1713,0.3949,0.4046,0.4469,-0.0453,False,True,None,6798,5692
+Texas Cohort,CatBoost with ACT-parity,0.31,Sweep,0.5836,0.3844,0.2456,0.8845,0.5317,0.8076,0.4309,0.1713,0.3845,0.4008,0.4469,-0.0494,False,True,None,6613,5877
+Texas Cohort,CatBoost with ACT-parity,0.32,Sweep,0.5931,0.3882,0.2491,0.878,0.544,0.8076,0.4309,0.1713,0.378,0.4008,0.4469,-0.054,False,True,None,6470,6020
+Texas Cohort,CatBoost with ACT-parity,0.33,Sweep,0.6038,0.3928,0.2535,0.872,0.5575,0.8076,0.4309,0.1713,0.372,0.3931,0.4469,-0.0577,False,True,None,6315,6175
+Texas Cohort,CatBoost with ACT-parity,0.34,Sweep,0.614,0.3971,0.2578,0.8649,0.5708,0.8076,0.4309,0.1713,0.3649,0.3855,0.3993,-0.0615,False,True,None,6161,6329
+Texas Cohort,CatBoost with ACT-parity,0.35,Sweep,0.6219,0.3992,0.2605,0.8546,0.5818,0.8076,0.4309,0.1713,0.3546,0.3817,0.3993,-0.0664,False,True,None,6024,6466
+Texas Cohort,CatBoost with ACT-parity,0.36,Sweep,0.6298,0.4021,0.2636,0.8469,0.5924,0.8076,0.4309,0.1713,0.3469,0.374,0.3993,-0.0711,False,True,None,5898,6592
+Texas Cohort,CatBoost with ACT-parity,0.37,Sweep,0.6401,0.4072,0.2687,0.841,0.6055,0.8076,0.4309,0.1713,0.341,0.374,0.3993,-0.074,False,True,None,5747,6743
+Texas Cohort,CatBoost with ACT-parity,0.38,Sweep,0.65,0.4113,0.2732,0.8317,0.6186,0.8076,0.4309,0.1713,0.3317,0.374,0.3993,-0.0771,False,True,None,5590,6900
+Texas Cohort,CatBoost with ACT-parity,0.39,Sweep,0.6593,0.4161,0.2781,0.8257,0.6307,0.8076,0.4309,0.1713,0.3257,0.374,0.3993,-0.08,False,True,None,5451,7039
+Texas Cohort,CatBoost with ACT-parity,0.4,Sweep,0.6665,0.418,0.2811,0.8148,0.6409,0.8076,0.4309,0.1713,0.3148,0.3511,0.3993,-0.0844,False,True,None,5322,7168
+Texas Cohort,CatBoost with ACT-parity,0.41,Sweep,0.6757,0.4226,0.2862,0.8072,0.6531,0.8076,0.4309,0.1713,0.3072,0.3473,0.304,-0.087,False,True,None,5178,7312
+Texas Cohort,CatBoost with ACT-parity,0.42,Sweep,0.6832,0.4258,0.2902,0.799,0.6632,0.8076,0.4309,0.1713,0.3445,0.3851,0.304,-0.0906,False,True,None,5055,7435
+Texas Cohort,CatBoost with ACT-parity,0.43,Sweep,0.6907,0.4288,0.2943,0.7898,0.6736,0.8076,0.4309,0.1713,0.3352,0.3813,0.304,-0.0939,False,True,None,4927,7563
+Texas Cohort,CatBoost with ACT-parity,0.44,Sweep,0.699,0.4317,0.2987,0.7778,0.6854,0.8076,0.4309,0.1713,0.5278,0.5821,0.304,-0.0965,False,True,None,4780,7710
+Texas Cohort,CatBoost with ACT-parity,0.45,Sweep,0.7048,0.4322,0.3013,0.7642,0.6946,0.8076,0.4309,0.1713,0.5142,0.5515,0.2574,-0.1008,False,True,None,4657,7833
+Texas Cohort,CatBoost with ACT-parity,0.46,Sweep,0.7127,0.4364,0.3066,0.7565,0.7052,0.8076,0.4309,0.1713,0.5065,0.5477,0.2564,-0.103,False,True,None,4530,7960
+Texas Cohort,CatBoost with ACT-parity,0.47,Sweep,0.7191,0.4379,0.3102,0.7446,0.7147,0.8076,0.4309,0.1713,0.4946,0.5324,0.2631,-0.1064,False,True,None,4407,8083
+Texas Cohort,CatBoost with ACT-parity,0.48,Sweep,0.7276,0.4414,0.3159,0.732,0.7269,0.8076,0.4309,0.1713,0.5048,0.5475,0.2356,-0.1075,False,True,None,4254,8236
+Texas Cohort,CatBoost with ACT-parity,0.49,Sweep,0.7339,0.4431,0.32,0.72,0.7363,0.8076,0.4309,0.1713,0.4928,0.5246,0.225,-0.1102,False,True,None,4131,8359
+Texas Cohort,CatBoost with ACT-parity,0.5,Default,0.7392,0.4444,0.3235,0.7097,0.7442,0.8076,0.4309,0.1713,0.4824,0.5132,0.2801,-0.1139,False,True,None,4028,8462
+Texas Cohort,CatBoost baseline,0.1,Sweep,0.3243,0.3013,0.1777,0.9913,0.2094,0.8147,0.454,0.1707,0.0063,0.015,0.1002,0.0708,False,True,None,10243,2247
+Texas Cohort,CatBoost baseline,0.11,Sweep,0.3378,0.3051,0.1804,0.9891,0.2255,0.8147,0.454,0.1707,0.0082,0.0191,0.1218,0.0637,False,True,None,10067,2423
+Texas Cohort,CatBoost baseline,0.12,Sweep,0.3525,0.3097,0.1836,0.988,0.243,0.8147,0.454,0.1707,0.0071,0.0191,0.0727,0.0572,False,True,None,9879,2611
+Texas Cohort,CatBoost baseline,0.13,Sweep,0.3675,0.3141,0.1868,0.9853,0.261,0.8147,0.454,0.1707,0.0082,0.0229,0.0754,0.0506,False,True,None,9682,2808
+Texas Cohort,CatBoost baseline,0.14,Sweep,0.3805,0.3178,0.1896,0.9815,0.2769,0.8147,0.454,0.1707,0.009,0.0275,0.097,0.0439,False,True,None,9506,2984
+Texas Cohort,CatBoost baseline,0.15,Sweep,0.3943,0.3215,0.1924,0.976,0.2941,0.8147,0.454,0.1707,0.0085,0.0325,0.1133,0.0372,False,True,None,9313,3177
+Texas Cohort,CatBoost baseline,0.16,Sweep,0.4102,0.3268,0.1963,0.9739,0.313,0.8147,0.454,0.1707,0.0064,0.0325,0.1349,0.0315,False,True,None,9107,3383
+Texas Cohort,CatBoost baseline,0.17,Sweep,0.4233,0.331,0.1995,0.9706,0.329,0.8147,0.454,0.1707,0.016,0.0455,0.1619,0.0254,False,True,None,8931,3559
+Texas Cohort,CatBoost baseline,0.18,Sweep,0.4366,0.3354,0.2029,0.9673,0.3451,0.8147,0.454,0.1707,0.0582,0.0909,0.1673,0.0196,False,True,None,8753,3737
+Texas Cohort,CatBoost baseline,0.19,Sweep,0.4511,0.3408,0.2069,0.9651,0.3625,0.8147,0.454,0.1707,0.0561,0.0909,0.1727,0.0143,False,True,None,8564,3926
+Texas Cohort,CatBoost baseline,0.2,Sweep,0.4633,0.3448,0.2101,0.9608,0.3776,0.8147,0.454,0.1707,0.0517,0.0909,0.1781,0.0085,False,True,None,8395,4095
+Texas Cohort,CatBoost baseline,0.21,Sweep,0.474,0.3487,0.2132,0.9581,0.3906,0.8147,0.454,0.1707,0.049,0.0909,0.1943,0.0026,False,True,None,8252,4238
+Texas Cohort,CatBoost baseline,0.22,Sweep,0.4869,0.3537,0.2171,0.9553,0.4061,0.8147,0.454,0.1707,0.0462,0.0909,0.2051,-0.0024,False,True,None,8081,4409
+Texas Cohort,CatBoost baseline,0.23,Sweep,0.4994,0.3575,0.2203,0.9477,0.4221,0.8147,0.454,0.1707,0.0386,0.0909,0.2167,-0.0079,False,True,None,7897,4593
+Texas Cohort,CatBoost baseline,0.24,Sweep,0.5117,0.3621,0.2241,0.9428,0.4374,0.8147,0.454,0.1707,0.0337,0.0909,0.2335,-0.013,False,True,None,7725,4765
+Texas Cohort,CatBoost baseline,0.25,Sweep,0.521,0.3645,0.2264,0.9346,0.4497,0.8147,0.454,0.1707,0.0255,0.0909,0.1953,-0.0191,False,True,None,7579,4911
+Texas Cohort,CatBoost baseline,0.26,Sweep,0.5307,0.3682,0.2295,0.9303,0.4619,0.8147,0.454,0.1707,0.0212,0.0909,0.2062,-0.0245,False,True,None,7441,5049
+Texas Cohort,CatBoost baseline,0.27,Sweep,0.5411,0.3719,0.2328,0.9243,0.475,0.8147,0.454,0.1707,0.0152,0.0909,0.2182,-0.0298,False,True,None,7290,5200
+Texas Cohort,CatBoost baseline,0.28,Sweep,0.55,0.3751,0.2357,0.9188,0.4865,0.8147,0.454,0.1707,0.0098,0.0909,0.2064,-0.0353,False,True,None,7158,5332
+Texas Cohort,CatBoost baseline,0.29,Sweep,0.5592,0.3782,0.2386,0.9118,0.4985,0.8147,0.454,0.1707,0.0044,0.0927,0.1951,-0.0407,False,True,None,7017,5473
+Texas Cohort,CatBoost baseline,0.3,Sweep,0.5685,0.3816,0.2417,0.9058,0.5103,0.8147,0.454,0.1707,0.0045,0.0988,0.2074,-0.0459,False,True,None,6880,5610
+Texas Cohort,CatBoost baseline,0.31,Sweep,0.5793,0.3855,0.2454,0.8976,0.5244,0.8147,0.454,0.1707,0.034,0.1364,0.2225,-0.0503,False,True,None,6715,5775
+Texas Cohort,CatBoost baseline,0.32,Sweep,0.5889,0.3895,0.2491,0.8922,0.5366,0.8147,0.454,0.1707,0.0285,0.1364,0.2319,-0.0549,False,True,None,6575,5915
+Texas Cohort,CatBoost baseline,0.33,Sweep,0.5977,0.3908,0.2514,0.878,0.5494,0.8147,0.454,0.1707,0.0598,0.1818,0.1953,-0.0603,False,True,None,6413,6077
+Texas Cohort,CatBoost baseline,0.34,Sweep,0.6061,0.3938,0.2545,0.8704,0.5605,0.8147,0.454,0.1707,0.0522,0.1818,0.2031,-0.0652,False,True,None,6280,6210
+Texas Cohort,CatBoost baseline,0.35,Sweep,0.6163,0.3984,0.2588,0.8644,0.5735,0.8147,0.454,0.1707,0.0462,0.1818,0.2166,-0.0688,False,True,None,6131,6359
+Texas Cohort,CatBoost baseline,0.36,Sweep,0.6259,0.4025,0.263,0.8573,0.586,0.8147,0.454,0.1707,0.0391,0.1818,0.228,-0.0726,False,True,None,5985,6505
+Texas Cohort,CatBoost baseline,0.37,Sweep,0.6335,0.4062,0.2666,0.8529,0.5956,0.8147,0.454,0.1707,0.0348,0.1818,0.2428,-0.0772,False,True,None,5874,6616
+Texas Cohort,CatBoost baseline,0.38,Sweep,0.6414,0.409,0.2699,0.8442,0.6064,0.8147,0.454,0.1707,0.026,0.1818,0.2538,-0.0817,False,True,None,5743,6747
+Texas Cohort,CatBoost baseline,0.39,Sweep,0.6502,0.4138,0.2745,0.8399,0.6175,0.8147,0.454,0.1707,0.0217,0.1818,0.2628,-0.0851,False,True,None,5617,6873
+Texas Cohort,CatBoost baseline,0.4,Sweep,0.6581,0.4173,0.2784,0.8328,0.628,0.8147,0.454,0.1707,0.0146,0.1818,0.273,-0.0891,False,True,None,5492,6998
+Texas Cohort,CatBoost baseline,0.41,Sweep,0.6658,0.4214,0.2826,0.8279,0.6379,0.8147,0.454,0.1707,0.0123,0.1844,0.2812,-0.093,False,True,None,5378,7112
+Texas Cohort,CatBoost baseline,0.42,Sweep,0.6733,0.424,0.2861,0.8181,0.6483,0.8147,0.454,0.1707,0.0121,0.1941,0.241,-0.097,False,True,None,5249,7241
+Texas Cohort,CatBoost baseline,0.43,Sweep,0.6804,0.4263,0.2895,0.8077,0.6584,0.8147,0.454,0.1707,0.035,0.2273,0.2524,-0.1011,False,True,None,5122,7368
+Texas Cohort,CatBoost baseline,0.44,Sweep,0.6857,0.4282,0.2922,0.8007,0.6659,0.8147,0.454,0.1707,0.0279,0.2273,0.2637,-0.1063,False,True,None,5030,7460
+Texas Cohort,CatBoost baseline,0.45,Sweep,0.6941,0.433,0.2976,0.7947,0.6767,0.8147,0.454,0.1707,0.0219,0.2273,0.2696,-0.1088,False,True,None,4903,7587
+Texas Cohort,CatBoost baseline,0.46,Sweep,0.7012,0.4352,0.3013,0.7832,0.6871,0.8147,0.454,0.1707,0.056,0.2727,0.2314,-0.1123,False,True,None,4772,7718
+Texas Cohort,CatBoost baseline,0.47,Sweep,0.7078,0.4379,0.3053,0.7745,0.6963,0.8147,0.454,0.1707,0.0472,0.2727,0.2461,-0.1159,False,True,None,4658,7832
+Texas Cohort,CatBoost baseline,0.48,Sweep,0.7141,0.4391,0.3085,0.7614,0.7059,0.8147,0.454,0.1707,0.0342,0.2727,0.2567,-0.1196,False,True,None,4531,7959
+Texas Cohort,CatBoost baseline,0.49,Sweep,0.7208,0.4418,0.3129,0.7516,0.7155,0.8147,0.454,0.1707,0.0698,0.3182,0.2657,-0.1227,False,True,None,4411,8079
+Texas Cohort,CatBoost baseline,0.5,Default,0.7276,0.4454,0.3178,0.744,0.7248,0.8147,0.454,0.1707,0.1076,0.3636,0.2755,-0.1254,False,True,None,4298,8192
+Texas Cohort,XGBoost with ACT-parity,0.1,Sweep,0.3858,0.3192,0.1906,0.9793,0.2836,0.808,0.4334,0.1603,0.4793,0.5,0.6677,0.0761,False,True,None,9431,3059
+Texas Cohort,XGBoost with ACT-parity,0.11,Sweep,0.4005,0.3238,0.1941,0.9766,0.3012,0.808,0.4334,0.1603,0.4766,0.5,0.6511,0.0699,False,True,None,9238,3252
+Texas Cohort,XGBoost with ACT-parity,0.12,Sweep,0.4124,0.3271,0.1967,0.9717,0.316,0.808,0.4334,0.1603,0.4717,0.5,0.6377,0.0633,False,True,None,9071,3419
+Texas Cohort,XGBoost with ACT-parity,0.13,Sweep,0.428,0.3325,0.2007,0.969,0.3348,0.808,0.4334,0.1603,0.469,0.5,0.6211,0.0576,False,True,None,8866,3624
+Texas Cohort,XGBoost with ACT-parity,0.14,Sweep,0.4386,0.3352,0.2029,0.963,0.3482,0.808,0.4334,0.1603,0.463,0.5,0.6076,0.051,False,True,None,8712,3778
+Texas Cohort,XGBoost with ACT-parity,0.15,Sweep,0.4534,0.3406,0.207,0.9602,0.3661,0.808,0.4334,0.1603,0.4602,0.5,0.5904,0.0457,False,True,None,8517,3973
+Texas Cohort,XGBoost with ACT-parity,0.16,Sweep,0.4666,0.3456,0.2108,0.9581,0.3819,0.808,0.4334,0.1603,0.4581,0.5,0.5741,0.0404,False,True,None,8344,4146
+Texas Cohort,XGBoost with ACT-parity,0.17,Sweep,0.4792,0.3501,0.2144,0.9542,0.3973,0.808,0.4334,0.1603,0.4542,0.5,0.5592,0.035,False,True,None,8173,4317
+Texas Cohort,XGBoost with ACT-parity,0.18,Sweep,0.4929,0.3546,0.2181,0.9477,0.4145,0.808,0.4334,0.1603,0.4477,0.5,0.5415,0.0297,False,True,None,7978,4512
+Texas Cohort,XGBoost with ACT-parity,0.19,Sweep,0.5049,0.3584,0.2214,0.9406,0.4298,0.808,0.4334,0.1603,0.4406,0.5,0.5265,0.0242,False,True,None,7802,4688
+Texas Cohort,XGBoost with ACT-parity,0.2,Sweep,0.518,0.3624,0.225,0.9319,0.4467,0.808,0.4334,0.1603,0.6819,0.75,0.5091,0.019,False,True,None,7606,4884
+Texas Cohort,XGBoost with ACT-parity,0.21,Sweep,0.5294,0.3662,0.2283,0.9248,0.4612,0.808,0.4334,0.1603,0.6748,0.75,0.4948,0.0138,False,True,None,7438,5052
+Texas Cohort,XGBoost with ACT-parity,0.22,Sweep,0.5416,0.3704,0.232,0.9172,0.4768,0.808,0.4334,0.1603,0.6672,0.75,0.4776,0.009,False,True,None,7258,5232
+Texas Cohort,XGBoost with ACT-parity,0.23,Sweep,0.5514,0.3725,0.2345,0.9058,0.4903,0.808,0.4334,0.1603,0.6558,0.6705,0.4633,0.0033,False,True,None,7093,5397
+Texas Cohort,XGBoost with ACT-parity,0.24,Sweep,0.562,0.377,0.2383,0.9014,0.5035,0.808,0.4334,0.1603,0.6514,0.6661,0.5275,-0.0012,False,True,None,6945,5545
+Texas Cohort,XGBoost with ACT-parity,0.25,Sweep,0.5704,0.3791,0.2407,0.8922,0.5149,0.808,0.4334,0.1603,0.6422,0.6582,0.515,-0.0068,False,True,None,6806,5684
+Texas Cohort,XGBoost with ACT-parity,0.26,Sweep,0.5803,0.3827,0.2441,0.8851,0.5278,0.808,0.4334,0.1603,0.6351,0.6512,0.5011,-0.0114,False,True,None,6656,5834
+Texas Cohort,XGBoost with ACT-parity,0.27,Sweep,0.5906,0.3874,0.2483,0.8807,0.5406,0.808,0.4334,0.1603,0.6307,0.6486,0.4881,-0.0155,False,True,None,6511,5979
+Texas Cohort,XGBoost with ACT-parity,0.28,Sweep,0.5994,0.39,0.2512,0.8709,0.5527,0.808,0.4334,0.1603,0.6209,0.6407,0.4754,-0.0204,False,True,None,6365,6125
+Texas Cohort,XGBoost with ACT-parity,0.29,Sweep,0.6081,0.3932,0.2545,0.8638,0.564,0.808,0.4334,0.1603,0.6138,0.6337,0.4641,-0.0249,False,True,None,6231,6259
+Texas Cohort,XGBoost with ACT-parity,0.3,Sweep,0.6156,0.3962,0.2576,0.8578,0.5739,0.808,0.4334,0.1603,0.6078,0.6267,0.4545,-0.0297,False,True,None,6115,6375
+Texas Cohort,XGBoost with ACT-parity,0.31,Sweep,0.6254,0.3999,0.2615,0.8491,0.5868,0.808,0.4334,0.1603,0.5991,0.6198,0.4415,-0.0335,False,True,None,5961,6529
+Texas Cohort,XGBoost with ACT-parity,0.32,Sweep,0.6348,0.4032,0.2654,0.8393,0.5996,0.808,0.4334,0.1603,0.5893,0.6093,0.4278,-0.0374,False,True,None,5807,6683
+Texas Cohort,XGBoost with ACT-parity,0.33,Sweep,0.6448,0.4084,0.2704,0.8339,0.6123,0.808,0.4334,0.1603,0.5839,0.6049,0.4146,-0.0403,False,True,None,5662,6828
+Texas Cohort,XGBoost with ACT-parity,0.34,Sweep,0.6536,0.4128,0.2749,0.8284,0.6234,0.808,0.4334,0.1603,0.5784,0.5988,0.403,-0.0437,False,True,None,5533,6957
+Texas Cohort,XGBoost with ACT-parity,0.35,Sweep,0.6616,0.4158,0.2786,0.8192,0.6345,0.808,0.4334,0.1603,0.5692,0.5883,0.3898,-0.0475,False,True,None,5398,7092
+Texas Cohort,XGBoost with ACT-parity,0.36,Sweep,0.6693,0.4189,0.2824,0.811,0.6448,0.808,0.4334,0.1603,0.561,0.5813,0.3784,-0.0512,False,True,None,5273,7217
+Texas Cohort,XGBoost with ACT-parity,0.37,Sweep,0.677,0.4224,0.2865,0.8034,0.6552,0.808,0.4334,0.1603,0.5534,0.576,0.3682,-0.0546,False,True,None,5148,7342
+Texas Cohort,XGBoost with ACT-parity,0.38,Sweep,0.6861,0.4277,0.2921,0.7979,0.6668,0.808,0.4334,0.1603,0.5479,0.5717,0.3557,-0.0569,False,True,None,5015,7475
+Texas Cohort,XGBoost with ACT-parity,0.39,Sweep,0.6938,0.4317,0.2968,0.7914,0.6769,0.808,0.4334,0.1603,0.5414,0.5656,0.3454,-0.0599,False,True,None,4895,7595
+Texas Cohort,XGBoost with ACT-parity,0.4,Sweep,0.701,0.4351,0.3012,0.7832,0.6869,0.808,0.4334,0.1603,0.5332,0.5586,0.3353,-0.0629,False,True,None,4774,7716
+Texas Cohort,XGBoost with ACT-parity,0.41,Sweep,0.7072,0.4366,0.3044,0.7718,0.6961,0.808,0.4334,0.1603,0.5218,0.5481,0.3263,-0.0667,False,True,None,4655,7835
+Texas Cohort,XGBoost with ACT-parity,0.42,Sweep,0.7135,0.4401,0.3087,0.7658,0.7045,0.808,0.4334,0.1603,0.5158,0.542,0.3169,-0.0699,False,True,None,4554,7936
+Texas Cohort,XGBoost with ACT-parity,0.43,Sweep,0.7199,0.442,0.3125,0.7549,0.7138,0.808,0.4334,0.1603,0.5049,0.5297,0.3068,-0.0732,False,True,None,4435,8055
+Texas Cohort,XGBoost with ACT-parity,0.44,Sweep,0.726,0.4438,0.3163,0.7435,0.723,0.808,0.4334,0.1603,0.4935,0.5149,0.2975,-0.0764,False,True,None,4316,8174
+Texas Cohort,XGBoost with ACT-parity,0.45,Sweep,0.7301,0.444,0.3184,0.7331,0.7296,0.808,0.4334,0.1603,0.4831,0.5044,0.2906,-0.081,False,True,None,4227,8263
+Texas Cohort,XGBoost with ACT-parity,0.46,Sweep,0.7356,0.445,0.3218,0.7211,0.7381,0.808,0.4334,0.1603,0.7211,0.743,0.2814,-0.0843,False,True,None,4114,8376
+Texas Cohort,XGBoost with ACT-parity,0.47,Sweep,0.7414,0.4482,0.3265,0.7146,0.746,0.808,0.4334,0.1603,0.7146,0.736,0.273,-0.0871,False,True,None,4018,8472
+Texas Cohort,XGBoost with ACT-parity,0.48,Sweep,0.7454,0.4487,0.3291,0.7048,0.7524,0.808,0.4334,0.1603,0.7048,0.7264,0.267,-0.0914,False,True,None,3932,8558
+Texas Cohort,XGBoost with ACT-parity,0.49,Sweep,0.7516,0.4505,0.3338,0.6928,0.7617,0.808,0.4334,0.1603,0.6928,0.7142,0.2565,-0.0935,False,True,None,3811,8679
+Texas Cohort,XGBoost with ACT-parity,0.5,Default,0.7576,0.4519,0.3385,0.6797,0.7711,0.808,0.4334,0.1603,0.6797,0.7019,0.2477,-0.0954,False,True,None,3687,8803
+Texas Cohort,XGBoost baseline,0.1,Sweep,0.3931,0.321,0.1921,0.976,0.2927,0.8096,0.4436,0.1562,0.0215,0.0455,0.1314,0.0764,False,True,None,9328,3162
+Texas Cohort,XGBoost baseline,0.11,Sweep,0.4061,0.3253,0.1952,0.9739,0.3082,0.8096,0.4436,0.1562,0.0193,0.0455,0.0927,0.0702,False,True,None,9158,3332
+Texas Cohort,XGBoost baseline,0.12,Sweep,0.419,0.3291,0.1982,0.9695,0.3241,0.8096,0.4436,0.1562,0.015,0.0455,0.1089,0.0639,False,True,None,8981,3509
+Texas Cohort,XGBoost baseline,0.13,Sweep,0.4317,0.3328,0.2011,0.9641,0.34,0.8096,0.4436,0.1562,0.055,0.0909,0.1251,0.0576,False,True,None,8802,3688
+Texas Cohort,XGBoost baseline,0.14,Sweep,0.4435,0.3364,0.204,0.9597,0.3545,0.8096,0.4436,0.1562,0.0506,0.0909,0.1467,0.0514,False,True,None,8639,3851
+Texas Cohort,XGBoost baseline,0.15,Sweep,0.4559,0.3406,0.2072,0.9559,0.3697,0.8096,0.4436,0.1562,0.0468,0.0909,0.1629,0.0456,False,True,None,8470,4020
+Texas Cohort,XGBoost baseline,0.16,Sweep,0.4688,0.3446,0.2105,0.9499,0.3859,0.8096,0.4436,0.1562,0.0408,0.0909,0.1737,0.0398,False,True,None,8287,4203
+Texas Cohort,XGBoost baseline,0.17,Sweep,0.4815,0.3491,0.2141,0.9461,0.4014,0.8096,0.4436,0.1562,0.037,0.0909,0.19,0.0345,False,True,None,8114,4376
+Texas Cohort,XGBoost baseline,0.18,Sweep,0.4941,0.3522,0.2169,0.9357,0.418,0.8096,0.4436,0.1562,0.0266,0.0909,0.2116,0.0286,False,True,None,7919,4571
+Texas Cohort,XGBoost baseline,0.19,Sweep,0.5074,0.3578,0.2213,0.9336,0.4339,0.8096,0.4436,0.1562,0.0245,0.0909,0.2224,0.024,False,True,None,7745,4745
+Texas Cohort,XGBoost baseline,0.2,Sweep,0.5179,0.3615,0.2245,0.9286,0.4471,0.8096,0.4436,0.1562,0.0196,0.0909,0.2278,0.0186,False,True,None,7596,4894
+Texas Cohort,XGBoost baseline,0.21,Sweep,0.5283,0.3643,0.2272,0.9194,0.461,0.8096,0.4436,0.1562,0.0103,0.0909,0.2386,0.0129,False,True,None,7431,5059
+Texas Cohort,XGBoost baseline,0.22,Sweep,0.5393,0.3682,0.2306,0.9134,0.4748,0.8096,0.4436,0.1562,0.0078,0.0944,0.244,0.0079,False,True,None,7272,5218
+Texas Cohort,XGBoost baseline,0.23,Sweep,0.5489,0.372,0.2339,0.909,0.4869,0.8096,0.4436,0.1562,0.0104,0.1014,0.218,0.0029,False,True,None,7136,5354
+Texas Cohort,XGBoost baseline,0.24,Sweep,0.559,0.3745,0.2366,0.8981,0.5006,0.8096,0.4436,0.1562,0.01,0.1119,0.2234,-0.0025,False,True,None,6970,5520
+Texas Cohort,XGBoost baseline,0.25,Sweep,0.571,0.3803,0.2414,0.8954,0.5151,0.8096,0.4436,0.1562,0.0091,0.1136,0.2342,-0.0062,False,True,None,6810,5680
+Texas Cohort,XGBoost baseline,0.26,Sweep,0.5813,0.3841,0.245,0.8883,0.5283,0.8096,0.4436,0.1562,0.0107,0.1224,0.2559,-0.0108,False,True,None,6656,5834
+Texas Cohort,XGBoost baseline,0.27,Sweep,0.5918,0.3882,0.249,0.8813,0.5419,0.8096,0.4436,0.1562,0.0176,0.1364,0.2667,-0.015,False,True,None,6499,5991
+Texas Cohort,XGBoost baseline,0.28,Sweep,0.6003,0.3914,0.2521,0.8742,0.5531,0.8096,0.4436,0.1562,0.0105,0.1364,0.2721,-0.0197,False,True,None,6366,6124
+Texas Cohort,XGBoost baseline,0.29,Sweep,0.6089,0.3941,0.2552,0.8655,0.5647,0.8096,0.4436,0.1562,0.0123,0.1469,0.2937,-0.0245,False,True,None,6227,6263
+Texas Cohort,XGBoost baseline,0.3,Sweep,0.6191,0.398,0.2592,0.8568,0.5781,0.8096,0.4436,0.1562,0.0141,0.1573,0.3045,-0.0283,False,True,None,6068,6422
+Texas Cohort,XGBoost baseline,0.31,Sweep,0.6292,0.4025,0.2637,0.8497,0.5912,0.8096,0.4436,0.1562,0.014,0.1643,0.2569,-0.0318,False,True,None,5915,6575
+Texas Cohort,XGBoost baseline,0.32,Sweep,0.638,0.4058,0.2674,0.841,0.603,0.8096,0.4436,0.1562,0.0682,0.2273,0.2623,-0.0358,False,True,None,5774,6716
+Texas Cohort,XGBoost baseline,0.33,Sweep,0.647,0.4095,0.2715,0.8328,0.615,0.8096,0.4436,0.1562,0.0601,0.2273,0.2731,-0.0393,False,True,None,5631,6859
+Texas Cohort,XGBoost baseline,0.34,Sweep,0.6568,0.4151,0.2769,0.8284,0.6272,0.8096,0.4436,0.1562,0.0557,0.2273,0.2785,-0.042,False,True,None,5493,6997
+Texas Cohort,XGBoost baseline,0.35,Sweep,0.6646,0.4183,0.2807,0.8203,0.6378,0.8096,0.4436,0.1562,0.093,0.2727,0.2849,-0.0458,False,True,None,5365,7125
+Texas Cohort,XGBoost baseline,0.36,Sweep,0.6707,0.4201,0.2834,0.8115,0.6464,0.8096,0.4436,0.1562,0.0843,0.2727,0.2947,-0.0504,False,True,None,5257,7233
+Texas Cohort,XGBoost baseline,0.37,Sweep,0.6785,0.4235,0.2875,0.8034,0.6569,0.8096,0.4436,0.1562,0.0761,0.2727,0.3041,-0.0538,False,True,None,5130,7360
+Texas Cohort,XGBoost baseline,0.38,Sweep,0.6849,0.4265,0.2911,0.7968,0.6657,0.8096,0.4436,0.1562,0.115,0.3182,0.3272,-0.0577,False,True,None,5025,7465
+Texas Cohort,XGBoost baseline,0.39,Sweep,0.6922,0.4291,0.295,0.787,0.6758,0.8096,0.4436,0.1562,0.1052,0.3182,0.2903,-0.0611,False,True,None,4899,7591
+Texas Cohort,XGBoost baseline,0.4,Sweep,0.699,0.4324,0.2991,0.78,0.6851,0.8096,0.4436,0.1562,0.0981,0.3182,0.3012,-0.0644,False,True,None,4787,7703
+Texas Cohort,XGBoost baseline,0.41,Sweep,0.705,0.4346,0.3025,0.7712,0.6935,0.8096,0.4436,0.1562,0.0894,0.3182,0.3066,-0.0683,False,True,None,4681,7809
+Texas Cohort,XGBoost baseline,0.42,Sweep,0.7113,0.4362,0.3059,0.7598,0.7029,0.8096,0.4436,0.1562,0.1234,0.3636,0.2698,-0.0718,False,True,None,4560,7930
+Texas Cohort,XGBoost baseline,0.43,Sweep,0.7182,0.4411,0.3113,0.7565,0.7116,0.8096,0.4436,0.1562,0.1202,0.3636,0.2806,-0.0744,False,True,None,4462,8028
+Texas Cohort,XGBoost baseline,0.44,Sweep,0.7233,0.4424,0.3143,0.7467,0.7193,0.8096,0.4436,0.1562,0.1104,0.3636,0.286,-0.0784,False,True,None,4362,8128
+Texas Cohort,XGBoost baseline,0.45,Sweep,0.7289,0.4446,0.3181,0.738,0.7273,0.8096,0.4436,0.1562,0.1017,0.3636,0.2914,-0.0818,False,True,None,4260,8230
+Texas Cohort,XGBoost baseline,0.46,Sweep,0.7324,0.4428,0.3191,0.7233,0.734,0.8096,0.4436,0.1562,0.1324,0.4091,0.2914,-0.087,False,True,None,4162,8328
+Texas Cohort,XGBoost baseline,0.47,Sweep,0.7377,0.4438,0.3224,0.7119,0.7422,0.8096,0.4436,0.1562,0.1664,0.4545,0.2546,-0.0904,False,True,None,4054,8436
+Texas Cohort,XGBoost baseline,0.48,Sweep,0.7429,0.4461,0.3264,0.7042,0.7496,0.8096,0.4436,0.1562,0.1588,0.4545,0.26,-0.0937,False,True,None,3961,8529
+Texas Cohort,XGBoost baseline,0.49,Sweep,0.7476,0.4467,0.3295,0.6934,0.7569,0.8096,0.4436,0.1562,0.1479,0.4545,0.2627,-0.0973,False,True,None,3863,8627
+Texas Cohort,XGBoost baseline,0.5,Default,0.7528,0.4492,0.334,0.6857,0.7644,0.8096,0.4436,0.1562,0.1857,0.5,0.2684,-0.1002,False,True,None,3769,8721
+Texas Cohort,HIR-M3 Transformer,0.1,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,0.0522,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.11,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,0.0416,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.12,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,0.0307,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.13,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,0.0195,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.14,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,0.0081,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.15,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0035,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.16,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0155,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.17,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0277,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.18,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0402,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.19,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0531,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.2,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0663,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.21,Sweep,0.147,0.2563,0.147,1.0,0.0,0.6191,0.2158,0.2335,0.0,0.0,0.0,-0.0797,False,True,None,12490,0
+Texas Cohort,HIR-M3 Transformer,0.22,Sweep,0.1471,0.2563,0.147,1.0,0.0001,0.6191,0.2158,0.2335,0.0,0.0,0.0002,-0.0936,False,True,None,12489,1
+Texas Cohort,HIR-M3 Transformer,0.23,Sweep,0.1472,0.2564,0.147,1.0,0.0003,0.6191,0.2158,0.2335,0.0,0.0,0.0005,-0.1077,False,True,None,12487,3
+Texas Cohort,HIR-M3 Transformer,0.24,Sweep,0.1487,0.2566,0.1472,0.9995,0.0021,0.6191,0.2158,0.2335,0.0003,0.0009,0.0029,-0.1219,False,True,None,12467,23
+Texas Cohort,HIR-M3 Transformer,0.25,Sweep,0.1525,0.257,0.1475,0.9973,0.0069,0.6191,0.2158,0.2335,0.0008,0.0035,0.0108,-0.1358,False,True,None,12411,79
+Texas Cohort,HIR-M3 Transformer,0.26,Sweep,0.157,0.2579,0.1481,0.9967,0.0123,0.6191,0.2158,0.2335,0.0017,0.005,0.0162,-0.1495,False,True,None,12353,137
+Texas Cohort,HIR-M3 Transformer,0.27,Sweep,0.1603,0.2582,0.1483,0.994,0.0166,0.6191,0.2158,0.2335,0.0015,0.0075,0.0206,-0.1641,False,True,None,12302,188
+Texas Cohort,HIR-M3 Transformer,0.28,Sweep,0.1624,0.2581,0.1484,0.9913,0.0196,0.6191,0.2158,0.2335,0.0013,0.01,0.0239,-0.1795,False,True,None,12265,225
+Texas Cohort,HIR-M3 Transformer,0.29,Sweep,0.1675,0.2588,0.1489,0.9886,0.026,0.6191,0.2158,0.2335,0.0061,0.0175,0.0315,-0.194,False,True,None,12192,298
+Texas Cohort,HIR-M3 Transformer,0.3,Sweep,0.1751,0.2599,0.1497,0.9853,0.0355,0.6191,0.2158,0.2335,0.0762,0.0909,0.0413,-0.2078,False,True,None,12085,405
+Texas Cohort,HIR-M3 Transformer,0.31,Sweep,0.1829,0.2602,0.1501,0.9777,0.046,0.6191,0.2158,0.2335,0.0686,0.0909,0.0595,-0.2219,False,True,None,11959,531
+Texas Cohort,HIR-M3 Transformer,0.32,Sweep,0.1942,0.2617,0.1512,0.9717,0.0603,0.6191,0.2158,0.2335,0.0626,0.0909,0.0408,-0.2344,False,True,None,11796,694
+Texas Cohort,HIR-M3 Transformer,0.33,Sweep,0.205,0.2621,0.1518,0.9608,0.0747,0.6191,0.2158,0.2335,0.0971,0.1364,0.0354,-0.2475,False,True,None,11622,868
+Texas Cohort,HIR-M3 Transformer,0.34,Sweep,0.2171,0.2633,0.1528,0.9515,0.0906,0.6191,0.2158,0.2335,0.0879,0.1364,0.0465,-0.2598,False,True,None,11436,1054
+Texas Cohort,HIR-M3 Transformer,0.35,Sweep,0.2319,0.2636,0.1534,0.9352,0.1107,0.6191,0.2158,0.2335,0.117,0.1818,0.0706,-0.271,False,True,None,11192,1298
+Texas Cohort,HIR-M3 Transformer,0.36,Sweep,0.2526,0.2661,0.1555,0.9216,0.1373,0.6191,0.2158,0.2335,0.1034,0.1818,0.1984,-0.2785,False,True,None,10883,1607
+Texas Cohort,HIR-M3 Transformer,0.37,Sweep,0.273,0.2689,0.1578,0.9096,0.1633,0.6191,0.2158,0.2335,0.1596,0.1851,0.2785,-0.2854,False,True,None,10584,1906
+Texas Cohort,HIR-M3 Transformer,0.38,Sweep,0.2901,0.2701,0.1591,0.8938,0.186,0.6191,0.2158,0.2335,0.1438,0.1737,0.3565,-0.2942,False,True,None,10313,2177
+Texas Cohort,HIR-M3 Transformer,0.39,Sweep,0.3328,0.2737,0.1629,0.8551,0.2428,0.6191,0.2158,0.2335,0.1278,0.143,0.297,-0.2872,False,True,None,9637,2853
+Texas Cohort,HIR-M3 Transformer,0.4,Sweep,0.3817,0.2794,0.1686,0.8154,0.3069,0.6191,0.2158,0.2335,0.3154,0.3425,0.2783,-0.2743,False,True,None,8881,3609
+Texas Cohort,HIR-M3 Transformer,0.41,Sweep,0.4085,0.2813,0.1712,0.7876,0.3432,0.6191,0.2158,0.2335,0.2876,0.33,0.2853,-0.2736,False,True,None,8444,4046
+Texas Cohort,HIR-M3 Transformer,0.42,Sweep,0.4301,0.283,0.1736,0.7653,0.3723,0.6191,0.2158,0.2335,0.2653,0.3025,0.359,-0.2752,False,True,None,8092,4398
+Texas Cohort,HIR-M3 Transformer,0.43,Sweep,0.4572,0.2851,0.1768,0.7364,0.4091,0.6191,0.2158,0.2335,0.2364,0.255,0.4066,-0.272,False,True,None,7647,4843
+Texas Cohort,HIR-M3 Transformer,0.44,Sweep,0.493,0.2879,0.1814,0.6972,0.4578,0.6191,0.2158,0.2335,0.4472,0.5,0.4542,-0.2609,False,True,None,7057,5433
+Texas Cohort,HIR-M3 Transformer,0.45,Sweep,0.5323,0.2921,0.1878,0.6563,0.5109,0.6191,0.2158,0.2335,0.4063,0.5,0.4542,-0.2449,False,True,None,6416,6074
+Texas Cohort,HIR-M3 Transformer,0.46,Sweep,0.5555,0.2929,0.1912,0.6264,0.5433,0.6191,0.2158,0.2335,0.3764,0.5,0.4249,-0.2398,False,True,None,6016,6474
+Texas Cohort,HIR-M3 Transformer,0.47,Sweep,0.573,0.2956,0.1951,0.6095,0.5667,0.6191,0.2158,0.2335,0.3595,0.5,0.4249,-0.2381,False,True,None,5735,6755
+Texas Cohort,HIR-M3 Transformer,0.48,Sweep,0.5925,0.2983,0.1997,0.5893,0.593,0.6191,0.2158,0.2335,0.3393,0.5,0.348,-0.2338,False,True,None,5418,7072
+Texas Cohort,HIR-M3 Transformer,0.49,Sweep,0.6071,0.2995,0.2029,0.5714,0.6133,0.6191,0.2158,0.2335,0.3214,0.5,0.4432,-0.2329,False,True,None,5169,7321
+Texas Cohort,HIR-M3 Transformer,0.5,Default,0.6231,0.3005,0.2066,0.5507,0.6356,0.6191,0.2158,0.2335,0.3007,0.5,0.4432,-0.2299,False,True,None,4893,7597
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.1,Sweep,0.1529,0.2562,0.1471,0.9924,0.0083,0.528,0.1622,0.1254,0.002,0.0096,0.011,0.0519,False,True,None,12388,102
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.11,ACT-Parity,0.1657,0.2571,0.1479,0.982,0.025,0.528,0.1622,0.1254,0.0126,0.0305,0.0626,0.0416,False,True,None,12191,299
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.12,Sweep,0.2892,0.2526,0.1494,0.817,0.1982,0.528,0.1622,0.1254,0.067,0.25,0.0867,0.0268,False,True,None,10042,2448
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.13,Sweep,0.4866,0.244,0.1557,0.5637,0.4733,0.528,0.1622,0.1254,0.0312,0.4675,0.1743,0.0157,False,True,None,6646,5844
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.14,Sweep,0.663,0.2236,0.169,0.3301,0.7204,0.528,0.1622,0.1254,0.1028,0.5227,0.3004,0.0097,False,True,None,3585,8905
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.15,Sweep,0.7656,0.1601,0.1691,0.152,0.8713,0.528,0.1622,0.1254,0.0611,0.4091,0.3077,0.003,False,True,None,1650,10840
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.16,Sweep,0.8195,0.102,0.1896,0.0697,0.9487,0.528,0.1622,0.1254,0.0697,0.0878,0.0525,0.0019,False,True,None,675,11815
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.17,Sweep,0.8464,0.0323,0.2177,0.0174,0.9892,0.528,0.1622,0.1254,0.0174,0.0344,0.0162,0.0007,False,True,None,147,12343
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.18,Sweep,0.8512,0.0085,0.2105,0.0044,0.9972,0.528,0.1622,0.1254,0.0044,0.0115,0.0054,0.0001,False,True,None,38,12452
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.19,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.2,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.21,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.22,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.23,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.24,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.25,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.26,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.27,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.28,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.29,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.3,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.31,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.32,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.33,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.34,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.35,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.36,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.37,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.38,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.39,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.4,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.41,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.42,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.43,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.44,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.45,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.46,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.47,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.48,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.49,Sweep,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.5,Default,0.853,0.0,0.0,0.0,1.0,0.528,0.1622,0.1254,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.1,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,0.0522,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.11,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,0.0416,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.12,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,0.0307,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.13,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,0.0195,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.14,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,0.0081,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.15,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,-0.0035,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.16,Sweep,0.147,0.2563,0.147,1.0,0.0,0.7678,0.3822,0.1925,0.0,0.0,0.0,-0.0155,False,True,None,12490,0
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.17,Sweep,0.1472,0.2564,0.147,1.0,0.0002,0.7678,0.3822,0.1925,0.0,0.0,0.0003,-0.0277,False,True,None,12488,2
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.18,Sweep,0.1484,0.2566,0.1472,1.0,0.0016,0.7678,0.3822,0.1925,0.0,0.0,0.0054,-0.0399,False,True,None,12473,17
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.19,Sweep,0.1504,0.2571,0.1475,1.0,0.0039,0.7678,0.3822,0.1925,0.0,0.0,0.0054,-0.0523,False,True,None,12448,42
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.2,Sweep,0.153,0.2577,0.1479,1.0,0.007,0.7678,0.3822,0.1925,0.0,0.0,0.0108,-0.0648,False,True,None,12415,75
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.21,Sweep,0.1564,0.2583,0.1483,0.9995,0.0112,0.7678,0.3822,0.1925,0.0003,0.0009,0.0132,-0.0773,False,True,None,12370,120
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.22,Sweep,0.161,0.2592,0.1489,0.9984,0.0167,0.7678,0.3822,0.1925,0.0009,0.0025,0.0476,-0.0898,False,True,None,12309,181
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.23,Sweep,0.1666,0.2603,0.1497,0.9973,0.0235,0.7678,0.3822,0.1925,0.0008,0.0035,0.0476,-0.1022,False,True,None,12235,255
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.24,Sweep,0.1733,0.2615,0.1505,0.9956,0.0316,0.7678,0.3822,0.1925,0.0018,0.0061,0.0476,-0.1145,False,True,None,12145,345
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.25,Sweep,0.1842,0.264,0.1522,0.9951,0.0445,0.7678,0.3822,0.1925,0.0012,0.0061,0.0489,-0.1254,False,True,None,12007,483
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.26,Sweep,0.1954,0.2658,0.1535,0.9907,0.0584,0.7678,0.3822,0.1925,0.0362,0.0455,0.043,-0.1366,False,True,None,11851,639
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.27,Sweep,0.2112,0.2692,0.1558,0.9886,0.0772,0.7678,0.3822,0.1925,0.034,0.0455,0.0605,-0.1458,False,True,None,11646,844
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.28,Sweep,0.2364,0.2752,0.1599,0.9864,0.1072,0.7678,0.3822,0.1925,0.0318,0.0455,0.069,-0.1512,False,True,None,11323,1167
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.29,Sweep,0.2649,0.2816,0.1644,0.9804,0.1415,0.7678,0.3822,0.1925,0.0258,0.0455,0.1123,-0.155,False,True,None,10946,1544
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.3,Sweep,0.289,0.287,0.1683,0.9733,0.171,0.7678,0.3822,0.1925,0.0188,0.0455,0.0976,-0.16,False,True,None,10619,1871
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.31,Sweep,0.317,0.2937,0.1732,0.9662,0.2051,0.7678,0.3822,0.1925,0.0571,0.0909,0.1435,-0.1626,False,True,None,10243,2247
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.32,Sweep,0.346,0.3016,0.1789,0.9608,0.24,0.7678,0.3822,0.1925,0.0517,0.0909,0.1975,-0.1638,False,True,None,9861,2629
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.33,Sweep,0.3746,0.3097,0.1848,0.9542,0.2747,0.7678,0.3822,0.1925,0.0452,0.0909,0.1368,-0.1644,False,True,None,9479,3011
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.34,Sweep,0.3998,0.3159,0.1898,0.9428,0.3063,0.7678,0.3822,0.1925,0.0792,0.1364,0.18,-0.1663,False,True,None,9122,3368
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.35,Sweep,0.4242,0.3218,0.1946,0.9292,0.3372,0.7678,0.3822,0.1925,0.0656,0.1364,0.1448,-0.1679,False,True,None,8768,3722
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.36,Sweep,0.4494,0.3291,0.2005,0.9188,0.3685,0.7678,0.3822,0.1925,0.0552,0.1364,0.1572,-0.1679,False,True,None,8415,4075
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.37,Sweep,0.4761,0.3368,0.2069,0.9052,0.4021,0.7678,0.3822,0.1925,0.0416,0.1364,0.1734,-0.1665,False,True,None,8032,4458
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.38,Sweep,0.4991,0.3429,0.2124,0.8889,0.432,0.7678,0.3822,0.1925,0.0253,0.1364,0.1896,-0.1663,False,True,None,7684,4806
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.39,Sweep,0.5224,0.3493,0.2184,0.872,0.4622,0.7678,0.3822,0.1925,0.0993,0.2273,0.222,-0.1651,False,True,None,7331,5159
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.4,Sweep,0.5463,0.3568,0.2254,0.8562,0.4929,0.7678,0.3822,0.1925,0.0835,0.2273,0.2545,-0.1625,False,True,None,6975,5515
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.41,Sweep,0.5685,0.3639,0.2323,0.8399,0.5217,0.7678,0.3822,0.1925,0.1126,0.2727,0.2046,-0.1601,False,True,None,6638,5852
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.42,Sweep,0.5918,0.3728,0.2408,0.8252,0.5516,0.7678,0.3822,0.1925,0.2343,0.4091,0.2586,-0.1557,False,True,None,6292,6198
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.43,Sweep,0.6142,0.3797,0.2486,0.8034,0.5816,0.7678,0.3822,0.1925,0.2125,0.4091,0.1423,-0.1512,False,True,None,5933,6557
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.44,Sweep,0.6356,0.3862,0.2567,0.78,0.6108,0.7678,0.3822,0.1925,0.2345,0.4545,0.1426,-0.1462,False,True,None,5579,6911
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.45,Sweep,0.658,0.3932,0.266,0.7538,0.6415,0.7678,0.3822,0.1925,0.2538,0.5,0.1696,-0.1394,False,True,None,5203,7287
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.46,Sweep,0.6784,0.4014,0.2763,0.7337,0.6689,0.7678,0.3822,0.1925,0.2337,0.2786,0.113,-0.1328,False,True,None,4875,7615
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.47,Sweep,0.6992,0.4101,0.2881,0.7113,0.6971,0.7678,0.3822,0.1925,0.2113,0.271,0.1604,-0.1246,False,True,None,4533,7957
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.48,Sweep,0.7159,0.4157,0.2979,0.6874,0.7209,0.7678,0.3822,0.1925,0.1874,0.2519,0.1356,-0.1188,False,True,None,4236,8254
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.49,Sweep,0.7339,0.4199,0.3089,0.6552,0.7474,0.7678,0.3822,0.1925,0.2007,0.2955,0.1185,-0.1107,False,True,None,3894,8596
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.5,Default,0.7477,0.4224,0.3183,0.6275,0.7684,0.7678,0.3822,0.1925,0.1729,0.2955,0.1347,-0.1053,False,True,None,3619,8871
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.1,Sweep,0.2636,0.2845,0.166,0.9962,0.1373,0.8066,0.4212,0.1112,0.0416,0.0455,0.2894,0.0647,False,True,None,11020,1470
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.11,Sweep,0.3218,0.3003,0.177,0.9902,0.2066,0.8066,0.4212,0.1112,0.2402,0.25,0.4254,0.0619,False,True,None,10271,2219
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.12,Sweep,0.3739,0.3152,0.1878,0.9804,0.2694,0.8066,0.4212,0.1112,0.2304,0.25,0.5213,0.0591,False,True,None,9584,2906
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.13,Sweep,0.42,0.3296,0.1986,0.97,0.3252,0.8066,0.4212,0.1112,0.47,0.5,0.5476,0.0566,False,True,None,8970,3520
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.14,Sweep,0.4649,0.3444,0.21,0.9559,0.3803,0.8066,0.4212,0.1112,0.4559,0.5,0.5706,0.0545,False,True,None,8357,4133
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.15,Sweep,0.5057,0.3583,0.2214,0.939,0.431,0.8066,0.4212,0.1112,0.439,0.5,0.5224,0.0524,False,True,None,7786,4704
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.16,Sweep,0.5431,0.3709,0.2325,0.9161,0.4788,0.8066,0.4212,0.1112,0.6661,0.75,0.4735,0.05,False,True,None,7235,5255
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.17,Sweep,0.5787,0.3831,0.2441,0.89,0.5251,0.8066,0.4212,0.1112,0.64,0.75,0.5042,0.0478,False,True,None,6694,5796
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.18,Sweep,0.6097,0.394,0.2553,0.8633,0.566,0.8066,0.4212,0.1112,0.6133,0.6329,0.4637,0.0456,False,True,None,6209,6281
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.19,Sweep,0.6367,0.404,0.2662,0.8377,0.602,0.8066,0.4212,0.1112,0.5877,0.6058,0.4252,0.0435,False,True,None,5778,6712
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.2,Sweep,0.6658,0.418,0.2809,0.8164,0.6399,0.8066,0.4212,0.1112,0.5664,0.5883,0.3847,0.0432,False,True,None,5336,7154
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.21,Sweep,0.69,0.4287,0.294,0.7914,0.6725,0.8066,0.4212,0.1112,0.5414,0.5664,0.35,0.0421,False,True,None,4942,7548
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.22,Sweep,0.7134,0.4375,0.3074,0.7582,0.7057,0.8066,0.4212,0.1112,0.5082,0.5376,0.3161,0.0406,False,True,None,4528,7962
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.23,Sweep,0.7337,0.4471,0.3218,0.7326,0.7339,0.8066,0.4212,0.1112,0.4826,0.5079,0.2863,0.0399,False,True,None,4180,8310
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.24,Sweep,0.7512,0.452,0.3342,0.6983,0.7603,0.8066,0.4212,0.1112,0.4483,0.4712,0.2571,0.0381,False,True,None,3836,8654
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.25,Sweep,0.7668,0.4548,0.3464,0.6618,0.7849,0.8066,0.4212,0.1112,0.6618,0.6836,0.2325,0.0361,False,True,None,3507,8983
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.26,ACT-Parity,0.7836,0.4584,0.3626,0.6231,0.8112,0.8066,0.4212,0.1112,0.6231,0.6512,0.2029,0.035,False,True,None,3155,9335
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.27,Sweep,0.7975,0.4562,0.3769,0.5779,0.8354,0.8066,0.4212,0.1112,0.5779,0.604,0.1779,0.033,False,True,None,2815,9675
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.28,Sweep,0.8096,0.4511,0.3914,0.5321,0.8574,0.8066,0.4212,0.1112,0.5321,0.5551,0.1539,0.0309,False,True,None,2496,9994
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.29,Sweep,0.8194,0.4405,0.4044,0.4837,0.8772,0.8066,0.4212,0.1112,0.4837,0.5079,0.1339,0.0283,False,True,None,2196,10294
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.3,Sweep,0.8312,0.4327,0.4277,0.4379,0.899,0.8066,0.4212,0.1112,0.4379,0.4615,0.1109,0.0275,False,True,None,1880,10610
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.31,Sweep,0.8396,0.4123,0.4466,0.3829,0.9182,0.8066,0.4212,0.1112,0.3829,0.4012,0.0892,0.025,False,True,None,1574,10916
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.32,Sweep,0.8456,0.3827,0.4639,0.3257,0.9351,0.8066,0.4212,0.1112,0.3257,0.3511,0.0718,0.0218,False,True,None,1289,11201
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.33,Sweep,0.8528,0.3528,0.499,0.2729,0.9528,0.8066,0.4212,0.1112,0.2729,0.2841,0.0513,0.0203,False,True,None,1004,11486
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.34,Sweep,0.8569,0.3114,0.5323,0.22,0.9667,0.8066,0.4212,0.1112,0.22,0.2366,0.036,0.0177,False,True,None,759,11731
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.35,Sweep,0.8583,0.2563,0.5607,0.1661,0.9776,0.8066,0.4212,0.1112,0.1661,0.1947,0.0271,0.0141,False,True,None,544,11946
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.36,Sweep,0.8587,0.1779,0.6141,0.104,0.9887,0.8066,0.4212,0.1112,0.104,0.1298,0.0151,0.0099,False,True,None,311,12179
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.37,Sweep,0.8581,0.128,0.6633,0.0708,0.9938,0.8066,0.4212,0.1112,0.0708,0.084,0.0071,0.0073,False,True,None,196,12294
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.38,Sweep,0.8563,0.0685,0.7253,0.0359,0.9977,0.8066,0.4212,0.1112,0.0359,0.0458,0.0027,0.0041,False,True,None,91,12399
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.39,Sweep,0.8547,0.031,0.7838,0.0158,0.9992,0.8066,0.4212,0.1112,0.0158,0.0175,0.0011,0.0019,False,True,None,37,12453
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.4,Sweep,0.854,0.0151,0.9333,0.0076,0.9999,0.8066,0.4212,0.1112,0.0076,0.0096,0.0002,0.0011,False,True,None,15,12475
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.41,Sweep,0.8532,0.0033,1.0,0.0016,1.0,0.8066,0.4212,0.1112,0.0016,0.0038,0.0,0.0002,False,True,None,3,12487
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.42,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.43,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.44,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.45,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.46,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.47,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.48,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.49,Sweep,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.5,Default,0.853,0.0,0.0,0.0,1.0,0.8066,0.4212,0.1112,0.0,0.0,0.0,0.0,False,True,None,0,12490

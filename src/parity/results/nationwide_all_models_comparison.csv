@@ -1,0 +1,7 @@
+Cohort,Model_Tier,Model_Name,Optimal_Threshold,ROC_AUC,PR_AUC,F1_Score,Accuracy,Precision,Sensitivity_TPR,AUC_Retention_Ratio,Worst_Group_FNR,FNR_Gap,Equalized_Odds_Diff,EFNHI_Star,Brier_Score,Platt_Calibration_Slope
+Nationwide_50pct,Classical Baseline,Logistic Regression,0.5888,0.7148,0.2914,0.3464,0.7724,0.2749,0.4681,1.0,0.5333,0.2138,0.2436,0.0875,0.2108,0.8889
+Nationwide_50pct,Classical Baseline,Random Forest,0.5272,0.6915,0.2605,0.3209,0.7512,0.2475,0.4565,1.0,0.5278,0.1802,0.1637,0.1232,0.2188,2.0163
+Nationwide_50pct,GBDT,LightGBM,0.5668,0.721,0.3156,0.3533,0.78,0.2843,0.4666,1.0,0.4667,0.1539,0.1547,0.0323,0.2076,1.1693
+Nationwide_50pct,GBDT,XGBoost,0.57,0.7183,0.3114,0.35,0.7866,0.288,0.446,0.9963,0.4667,0.1416,0.1444,0.0411,0.2061,1.1665
+Nationwide_50pct,GBDT,CatBoost,0.5612,0.719,0.3115,0.3515,0.7717,0.2772,0.4805,0.9973,0.4667,0.1595,0.1544,0.062,0.2106,1.1821
+Nationwide_50pct,Neural,Standard MLP,0.3998,0.6547,0.2281,0.3002,0.7132,0.2189,0.4776,0.9081,0.7333,0.1874,0.1324,0.1737,0.1674,0.2286

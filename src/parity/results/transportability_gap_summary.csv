@@ -1,0 +1,81 @@
+Standardized Model Name,Nationwide Model Name,Texas Model Name,Nationwide Ensemble Ratio,Texas Ensemble Ratio,Metric,Direction,Nationwide Value,Texas Value,Transportability Gap,Worst-Cohort Value,Comparison Available,Notes
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,ROC_AUC,Higher is better,0.8241,0.8096,0.0145,0.8096,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,PR_AUC,Higher is better,0.4167,0.4436,0.0269,0.4167,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,F1_Score,Higher is better,0.4494,0.4619,0.0125,0.4494,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,Brier_Score,Lower is better,0.169,0.1562,0.0128,0.169,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,Precision,Higher is better,0.3755,0.375,0.0005,0.375,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,Recall,Higher is better,0.5595,0.6013,0.0418,0.5595,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,Specificity,Higher is better,,,,,True,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,FNR_Gap_DGAP,Lower is better,0.3226,0.2634,0.0592,0.3226,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,Equalized_Odds_Difference_EOD,Lower is better,0.1992,0.2659,0.0666,0.2659,True,Matched cross-cohort family comparison
+XGBoost baseline,XGBoost baseline,XGBoost baseline,N/A,N/A,Fairness-Performance Stability Area,Higher is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,ROC_AUC,Higher is better,0.7063,0.6191,0.0872,0.6191,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,PR_AUC,Higher is better,0.2631,0.2158,0.0473,0.2158,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,F1_Score,Higher is better,0.3239,0.302,0.0219,0.302,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,Brier_Score,Lower is better,0.2645,0.2335,0.031,0.2645,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,Precision,Higher is better,0.2468,0.2107,0.0361,0.2107,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,Recall,Higher is better,0.471,0.5327,0.0617,0.471,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,Specificity,Higher is better,,,,,True,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,FNR_Gap_DGAP,Lower is better,0.1941,0.0992,0.0949,0.1941,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,Equalized_Odds_Difference_EOD,Lower is better,0.2503,0.2712,0.0209,0.2712,True,Matched cross-cohort family comparison
+HIR-M3 Transformer,HIR-M3 Transformer,HIR-M3 Transformer,N/A,N/A,Fairness-Performance Stability Area,Higher is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,ROC_AUC,Higher is better,0.8239,0.7678,0.0561,0.7678,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,PR_AUC,Higher is better,0.4156,0.3822,0.0334,0.3822,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,F1_Score,Higher is better,0.449,0.4249,0.0241,0.4249,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,Brier_Score,Lower is better,0.173,0.1925,0.0195,0.1925,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,Precision,Higher is better,0.3738,0.3395,0.0343,0.3395,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,Recall,Higher is better,0.5621,0.5675,0.0054,0.5621,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,Specificity,Higher is better,,,,,True,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,FNR_Gap_DGAP,Lower is better,0.3292,0.2401,0.0891,0.3292,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,Equalized_Odds_Difference_EOD,Lower is better,0.2022,0.1874,0.0148,0.2022,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble,XGBoost + HIR-M3 Ensemble (90:10),XGBoost + HIR-M3 Ensemble (30:70),90:10,30:70,Fairness-Performance Stability Area,Higher is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,ROC_AUC,Higher is better,0.8136,0.808,0.0056,0.808,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,PR_AUC,Higher is better,0.3963,0.4334,0.0371,0.3963,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,F1_Score,Higher is better,0.4352,0.4593,0.0241,0.4352,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,Brier_Score,Lower is better,0.1723,0.1603,0.012,0.1723,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,Precision,Higher is better,0.3562,0.3643,0.0081,0.3562,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,Recall,Higher is better,0.5593,0.6215,0.0622,0.5593,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,Specificity,Higher is better,,,,,True,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,FNR_Gap_DGAP,Lower is better,0.497,0.4292,0.0678,0.497,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,Equalized_Odds_Difference_EOD,Lower is better,0.3365,0.3384,0.002,0.3384,True,Matched cross-cohort family comparison
+XGBoost with ACT-parity,XGBoost with ACT-parity,XGBoost with ACT-parity,N/A,N/A,Fairness-Performance Stability Area,Higher is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,ROC_AUC,Higher is better,0.655,0.528,0.127,0.528,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,PR_AUC,Higher is better,0.2163,0.1622,0.0541,0.1622,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,F1_Score,Higher is better,0.2882,0.2574,0.0308,0.2574,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,Brier_Score,Lower is better,0.1093,0.1254,0.0161,0.1254,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,Precision,Higher is better,0.2119,0.1481,0.0638,0.1481,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,Recall,Higher is better,0.4504,0.9804,0.53,0.4504,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,Specificity,Higher is better,,,,,True,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,FNR_Gap_DGAP,Lower is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,Equalized_Odds_Difference_EOD,Lower is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,HIR-M3 Transformer with ACT-parity,N/A,N/A,Fairness-Performance Stability Area,Higher is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,ROC_AUC,Higher is better,0.8136,0.8066,0.007,0.8066,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,PR_AUC,Higher is better,0.3963,0.4212,0.0249,0.3963,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,F1_Score,Higher is better,0.4358,0.4599,0.0241,0.4358,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,Brier_Score,Lower is better,0.1538,0.1112,0.0426,0.1538,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,Precision,Higher is better,0.3527,0.3701,0.0174,0.3527,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,Recall,Higher is better,0.5702,0.6073,0.0371,0.5702,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,Specificity,Higher is better,,,,,True,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,FNR_Gap_DGAP,Lower is better,0.4647,0.0,0.4647,0.4647,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,Equalized_Odds_Difference_EOD,Lower is better,0.3136,0.0,0.3136,0.3136,True,Matched cross-cohort family comparison
+XGBoost + HIR-M3 Ensemble with ACT-parity,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,90:10,30:70,Fairness-Performance Stability Area,Higher is better,0.0,0.0,0.0,0.0,True,Matched cross-cohort family comparison
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,ROC_AUC,Higher is better,0.8256,0.8147,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,PR_AUC,Higher is better,0.4237,0.454,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,F1_Score,Higher is better,0.4492,0.4665,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,Brier_Score,Lower is better,0.1647,0.1707,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,Precision,Higher is better,0.3616,0.3682,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,Recall,Higher is better,0.5927,0.6362,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,Specificity,Higher is better,,,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,FNR_Gap_DGAP,Lower is better,0.3785,0.1728,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,Equalized_Odds_Difference_EOD,Lower is better,0.2365,0.2242,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost baseline,LightGBM baseline,CatBoost baseline,N/A,N/A,Fairness-Performance Stability Area,Higher is better,0.0,0.0,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,ROC_AUC,Higher is better,0.8129,0.8076,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,PR_AUC,Higher is better,0.3999,0.4309,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,F1_Score,Higher is better,0.4335,0.4576,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,Brier_Score,Lower is better,0.1716,0.1713,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,Precision,Higher is better,0.3403,0.4105,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,Recall,Higher is better,0.597,0.5169,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,Specificity,Higher is better,,,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,FNR_Gap_DGAP,Lower is better,0.5593,0.5132,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,Equalized_Odds_Difference_EOD,Lower is better,0.388,0.3967,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm
+LightGBM / CatBoost with ACT-parity,LightGBM with ACT-parity,CatBoost with ACT-parity,N/A,N/A,Fairness-Performance Stability Area,Higher is better,0.0,0.0,,,False,Comparison Unavailable: Unmatched model pair or cohort-specific algorithm

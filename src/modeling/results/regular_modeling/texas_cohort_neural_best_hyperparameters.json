@@ -1,0 +1,41 @@
+{
+    "Standard MLP": {
+        "BATCH_SIZE": 128,
+        "HIDDEN_DIM": 128,
+        "LR": 0.0005,
+        "EPOCHS": 10,
+        "DROPOUT": 0.2
+    },
+    "Standard Transformer": {
+        "BATCH_SIZE": 64,
+        "EMBED_DIM": 32,
+        "NUM_HEADS": 4,
+        "NUM_LAYERS": 1,
+        "HIDDEN_DIM": 128,
+        "LR": 0.001,
+        "EPOCHS": 5,
+        "PATIENCE": 3
+    },
+    "SAINT Transformer": {
+        "BATCH_SIZE": 128,
+        "EMBED_DIM": 32,
+        "NUM_HEADS": 4,
+        "NUM_LAYERS": 1,
+        "HIDDEN_DIM": 64,
+        "LR": 0.001,
+        "EPOCHS": 5,
+        "DROPOUT": 0.1
+    },
+    "HIR-M3 Transformer": {
+        "BATCH_SIZE": 64,
+        "EMBED_DIM": 32,
+        "NUM_HEADS": 4,
+        "NUM_LAYERS": 1,
+        "HIDDEN_DIM": 128,
+        "LR": 0.001,
+        "EPOCHS": 5,
+        "LAMBDA_HIR": 0.05,
+        "GAMMA": 0.5,
+        "PATIENCE": 3
+    }
+}

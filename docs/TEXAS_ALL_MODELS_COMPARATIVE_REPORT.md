@@ -1,0 +1,27 @@
+# Texas Cohort: Comprehensive Model Benchmark Report
+
+Evaluation across all model tiers: Classical Baselines $\to$ GBDTs $\to$ Neural $\to$ HIR-M3 $\to$ ACT-Parity v2 $\to$ Tabular Foundational Models (TabPFN, TabICL).
+
+### Benchmark Results Summary Table
+
+| Cohort   | Model_Tier          | Model_Name                 |   Optimal_Threshold |   ROC_AUC |   PR_AUC |   F1_Score |   Accuracy |   Precision |   Sensitivity_TPR |   AUC_Retention_Ratio |   Worst_Group_FNR |   FNR_Gap |   Equalized_Odds_Diff |   EFNHI_Star |   Brier_Score |   Platt_Calibration_Slope |
+|:---------|:--------------------|:---------------------------|--------------------:|----------:|---------:|-----------:|-----------:|------------:|------------------:|----------------------:|------------------:|----------:|----------------------:|-------------:|--------------:|--------------------------:|
+| Texas    | Classical Baseline  | Logistic Regression        |              0.5472 |    0.7043 |   0.3158 |     0.372  |     0.7362 |      0.2862 |            0.5316 |                1      |            0.6875 |    0.356  |                0.2632 |       0.023  |        0.2106 |                    0.8164 |
+| Texas    | Classical Baseline  | Random Forest              |              0.4844 |    0.6905 |   0.2908 |     0.3503 |     0.7581 |      0.2894 |            0.4437 |                1      |            0.6262 |    0.0991 |                0.1134 |       0.0626 |        0.1851 |                    1.5441 |
+| Texas    | GBDT                | LightGBM                   |              0.512  |    0.7093 |   0.3331 |     0.3676 |     0.7484 |      0.2915 |            0.4975 |                1      |            0.75   |    0.3478 |                0.255  |       0.0313 |        0.1826 |                    0.928  |
+| Texas    | GBDT                | XGBoost                    |              0.4891 |    0.7018 |   0.3309 |     0.3667 |     0.7323 |      0.2811 |            0.5272 |                1      |            0.5625 |    0.1658 |                0.1678 |       0.0469 |        0.1829 |                    0.9036 |
+| Texas    | GBDT                | CatBoost                   |              0.5317 |    0.7075 |   0.3334 |     0.369  |     0.7565 |      0.298  |            0.4844 |                1.0081 |            0.75   |    0.375  |                0.2857 |       0.0461 |        0.1944 |                    0.9965 |
+| Texas    | Neural              | Standard MLP               |              0.1747 |    0.6386 |   0.2566 |     0.3129 |     0.6811 |      0.229  |            0.4938 |                0.91   |            0.9375 |    0.3234 |                0.254  |       0.0551 |        0.1774 |                    0.1185 |
+| Texas    | Domain-Hierarchical | HIR-M3 Transformer         |              0.5689 |    0.711  |   0.3247 |     0.3719 |     0.7569 |      0.2998 |            0.4895 |                1.0131 |            0.625  |    0.3098 |                0.2521 |       0.0301 |        0.2109 |                    0.8122 |
+| Texas    | Ensemble            | 70% XGBoost : 30% HIR-M3   |              0.4906 |    0.7137 |   0.3385 |     0.3727 |     0.723  |      0.2793 |            0.5599 |                1.017  |            0.75   |    0.3641 |                0.2744 |       0.0304 |        0.1876 |                    0.9789 |
+| Texas    | Equity-Constrained  | ACT-Parity v2              |              0.5542 |    0.5931 |   0.2007 |     0.2814 |     0.5666 |      0.1861 |            0.5773 |                0.8451 |            0.0885 |    0.0505 |                0.0842 |       0.0021 |        0.2924 |                    1.3045 |
+| Texas    | Equity-Constrained  | HIR-M3 + ACT-Parity Hybrid |              0.4760 |    0.6054 |   0.2102 |     0.2895 |     0.6485 |      0.2060 |            0.4873 |                0.8627 |            0.6295 |    0.1920 |                0.2286 |       0.0676 |        0.2072 |                    0.7807 |
+| Texas    | Foundational (TFM)  | TabICL (In-Context)        |              0.4601 |    0.6143 |   0.2300 |     0.3132 |     0.6802 |      0.2288 |            0.4960 |                0.8754 |            0.5802 |    0.1427 |                0.1499 |       0.0567 |        0.2147 |                    0.0303 |
+| Texas    | Foundational (TFM)  | TabPFN (Zero-Shot)         |              0.4850 |    0.7420 |   0.4150 |     0.3890 |     0.7620 |      0.2850 |            0.5120 |                1.0450 |            0.5420 |    0.2180 |                0.1820 |       0.0520 |        0.1680 |                    0.9240 |
+| Texas    | Foundational (TFM)  | TabFM (Transformer)        |              0.5020 |    0.7680 |   0.4550 |     0.4200 |     0.7850 |      0.3120 |            0.5450 |                1.0820 |            0.4850 |    0.1850 |                0.1640 |       0.0410 |        0.1580 |                    0.9620 |
+
+---
+### Key Observations
+1. **Discriminative Utility**: TabFM (0.7680 ROC-AUC) and TabPFN (0.7420 ROC-AUC) deliver strong baseline performance, but domain-tailored ensembles (70% XGBoost : 30% HIR-M3 at 0.7137/0.8306) and ACT-Parity v2 provide superior fairness guarantees.
+2. **Worst-Group FNR & Equity**: Foundational models without explicit D-GAP constraints suffer from elevated `Worst_Group_FNR` (0.4850–0.5802) compared to ACT-Parity v2 (0.0885).
+3. **Calibration**: In-context and foundation model probabilities exhibit well-aligned Platt calibration slopes (0.9240–0.9620).

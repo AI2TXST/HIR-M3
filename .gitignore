@@ -1,2 +1,28 @@
-data/processed_data.pkl
-data/optimized/sdoh_2020_tract_1_0.csv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.gemini/
+scratch/
+
+# Large Datasets and Patient-Level Files (CMS OASIS / DUA)
+data/*.csv
+data/**/*.csv
+data/shapefile/
+data/*.pth
+data/*.pkl
+!data/README.md
+
+# Log files and SLURM outputs
+*.log
+slurm-*.out
+slurm-*.err
+
+# OS files
+.DS_Store
+Thumbs.db

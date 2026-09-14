@@ -1,0 +1,9 @@
+{
+  "Platt_Intercept_a": -0.5663396130158046,
+  "Platt_Slope_b": 0.6031669922724384,
+  "Hosmer_Lemeshow_Chi2": 5.289562856909128,
+  "Hosmer_Lemeshow_df": 8,
+  "Hosmer_Lemeshow_p": 0.7262262566390175,
+  "Spiegelhalter_z": -0.001695514276590624,
+  "Spiegelhalter_p": 0.9986471759842634
+}

@@ -1,126 +1,210 @@
-# HIR-M3: Hierarchical Interaction Regularization Model
+# Predictive Modeling, Ensembling, and Algorithmic Parity for 30-Day Readmission Risk
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TRIPOD-AI Compliant](https://img.shields.io/badge/TRIPOD--AI-Compliant-brightgreen.svg)](docs/TRIPOD_AI_CHECKLIST_AND_S1_MATRIX.md)
 
-**HIR-M3** (Hierarchical Interaction Regularization Multi-Tier Model) is a deep learning framework designed for Social Determinants of Health (SDOH)-enhanced 30-day hospital readmission risk prediction. Built specifically to handle complex, multi-level healthcare datasets (such as CMS OASIS-E home health cohorts), HIR-M3 addresses the critical limitations of "flat" tabular models by organizing variables into explicit structural tiers (**Micro**, **Meso**, **Macro**) and enforcing cross-tier interaction via regularized constraint-aware self-attention.
-
----
-
-## Overview
-
-Standard tabular gradient boosting and flat neural network architectures treat clinical indicators, demographic factors, and socio-environmental zip/county-level metrics as an unranked, flat vector. This introduces two primary vulnerabilities:
-1. **Intra-Tier Redundancy & Noise Absorption**: Models overfit to collinear intra-tier features (e.g. county-level SDOH indices collinearity).
-2. **Probability Miscalibration**: GBDT engines achieve strong ROC-AUC ranking but produce poorly calibrated risk probabilities (high Brier Score), making clinical risk thresholding unreliable.
-
-HIR-M3 solves these issues by embedding features into a structural hierarchy and applying a novel **Hierarchical Interaction Regularization Penalty ($\lambda_{\text{HIR}} = 0.5$)** that penalizes intra-tier self-attention while rewarding cross-tier attention bridging Meso SDOH indicators to Micro clinical risk states. Combined in a **90% LightGBM + 10% HIR-M3 Hybrid Ensemble**, the framework delivers state-of-the-art discriminative power (**0.8065 ROC-AUC**, **0.4200 PR-AUC**) with optimal probability calibration (**0.1090 Brier Score** for HIR-M3 standalone).
+This repository provides the official implementation, experimental pipelines, and evaluation suite for the study:  
+**"Predictive Modeling, Ensembling, and Algorithmic Parity for 30-Day Readmission Risk: A Multi-Task Investigation Across Geographic and Clinical Subgroups"**.
 
 ---
 
-## Methodology & Model Architecture
+## 🔬 Study Architecture
 
+The research framework investigates 30-day post-acute home health hospital readmission prediction using **CMS OASIS national data** ($N \approx 100,000$) and a **Texas statewide cohort** ($N \approx 50,000$) across three integrated tasks:
 
-### 1. Micro-Meso-Macro Structural Tiers
-- **Micro (Individual Patient Tier)**: Age, race/ethnicity, OASIS assessment responses, Charlson & Elixhauser comorbidity indices, ICD diagnosis cluster flags, functional status scores.
-- **Meso (Community & Geographic Tier)**: County FIPS codes, Urban/Rural population percentages (`POP_URB`, `POPPCT_URB`), ACS 5-year socioeconomic indicators (poverty index by demographic, broadband/cellular access, caregiver burden, education levels).
-- **Macro (Systemic Healthcare Tier)**: Medicare provider identifiers (`Agency_Medicare_Number_*`), HIPPS payment codes, institutional & facility internal IDs.
-
-### 2. HIR-M3 Neural Transformer Architecture
-- **Vectorized Feature Embeddings**: Projects scalar features $x_i$ directly into a $D$-dimensional sequence space ($\mathbf{E}_i = x_i \mathbf{W}_i + \mathbf{b}_i$) using vectorized 3D operations.
-- **Token-Level Feature Dropout**: Masks entire feature tokens randomly ($\text{Bernoulli}(1-p)$) rather than individual scalars, preventing token co-adaptation.
-- **Constraint-Aware Self-Attention**: Computes Multi-Head Self-Attention (MHSA) across sequence dimension $N$, extracting deep non-linear interactions across spatial and clinical variables.
-- **Gated MLP Head**: Utilizes sigmoidal gating ($\mathbf{h} = \sigma(\mathbf{W}_{\text{gate}}\mathbf{x}) \odot \text{GELU}(\mathbf{W}_{\text{fc}}\mathbf{x})$) to suppress noisy uninformative pooled tokens before logit output.
-
-### 3. Hierarchical Interaction Regularization ($\mathcal{L}_{\text{HIR}}$)
-The regularized loss function adds the HIR penalty to standard Binary Cross-Entropy:
-
-$$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{BCE}} + \lambda_{\text{HIR}} \cdot \mathcal{R}_{\text{HIR}}$$
-
-$$\mathcal{R}_{\text{HIR}} = \bar{\mathbf{A}}_{\text{Meso} \to \text{Meso}} - \gamma \cdot \bar{\mathbf{A}}_{\text{Meso} \to \text{Micro}}$$
-
-- **Penalty Objective**: Mathematically suppresses self-attention loops strictly inside the Meso tier ($\bar{\mathbf{A}}_{\text{Meso} \to \text{Meso}}$) while actively rewarding attention bridging Meso SDOH metrics to Micro patient clinical states ($\bar{\mathbf{A}}_{\text{Meso} \to \text{Micro}}$).
-
-
-
----
-
-## Algorithmic Equity & Demographic Sample Weighting
-
-Initial model audits revealed severe demographic risk under-prediction for minority groups, specifically Asian patients (**False Negative Rate of 63.3%**). Root-cause analysis isolated this to **Class Imbalance combined with Minority Base Rate Suppression** (Asian patients represented 1.5% of the cohort with a lower baseline reported readmission rate).
-
-To enforce clinical equity without sacrificing overall model performance, we implemented **Demographic Sample Weighting**, applying a **5.0x loss multiplier** to Asian patient records during PyTorch backpropagation.
-
-### Algorithmic Fairness Results
-- **Asian Sensitivity (Recall)**: Improved by **+7.8%** absolute margin.
-- **Cross-Demographic Positive Externalities**:
-  - **Black Patient Recall**: **+10.7%**
-  - **White Patient Recall**: **+4.3%**
-  - **Hispanic Patient Recall**: **+3.5%**
-
-This confirms that targeted sample penalty weighting forces the network to learn generalized structural risk signals rather than fitting to majority demographic baselines.
-
----
-
-## Hybrid Ensemble Architecture
-
-To unify the non-linear split decision capability of gradient boosted decision trees with the calibrated global attention of regularized transformers, HIR-M3 is integrated into an **Ensemble Ratio Blending** framework:
-
-$$\hat{y}_{\text{ensemble}} = w_{\text{GBDT}} \cdot \hat{y}_{\text{LightGBM}} + w_{\text{HIR}} \cdot \hat{y}_{\text{HIR-M3}}$$
-
-Optimal blending ratio determined via grid search: **90% LightGBM + 10% HIR-M3**.
-
----
-
-## Benchmark Evaluation & Results
-
-Evaluated on the full Texas CMS cohort across standard discriminative, precision-recall, and calibration metrics:
-
-| Model Generation | Model / Strategy | ROC-AUC | PR-AUC | Brier Score | Precision | Recall | F1-Score |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Baseline** | Baseline Random Forest | 0.7385 | 0.3319 | 0.1177 | 0.2896 | **0.6442** | 0.3992 |
-| **Baseline** | Baseline LightGBM | 0.7504 | 0.3545 | 0.2033 | 0.3040 | 0.6223 | 0.4082 |
-| **Optimized** | **LightGBM (Precision Engine)** | 0.8058 | 0.4295 | 0.1867 | **0.3623** | 0.6174 | 0.4566 |
-| **Optimized** | **HIR-M3 (Structural Expert)** | 0.8007 | 0.4120 | **0.1090** | 0.3584 | 0.6260 | 0.4558 |
-| **Final SOTA** | **Hybrid Ensemble (10% HIR + 90% LGBM)** | **0.8065** | **0.4200** | 0.1206 | 0.3581 | 0.6320 | **0.4572** |
-
-### Key Benchmark Insights
-1. **The Flat Tabular Blindspot**: Standalone LightGBM achieves high AUC (0.8058) but suffers from high Brier Score (0.1867), indicating severe overconfidence in raw output probabilities.
-2. **Structural Probability Calibration**: HIR-M3 achieves an elite **0.1090 Brier Score**, correctly anchoring risk probability estimates to true empirical rates via cross-tier regularized attention.
-3. **Synergistic Ensemble Effect**: Combining 10% HIR-M3 with 90% LightGBM corrects tree miscalibration, boosting overall ROC-AUC to **0.8065** and F1 to **0.4572**.
-
-
----
-
-## Getting Started & Usage
-
-### Prerequisites
-Install dependencies:
-```bash
-pip install torch numpy pandas scikit-learn lightgbm xgboost catboost matplotlib seaborn
+```
+┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                   THREE-TASK RESEARCH DESIGN                                   │
+├────────────────────────────────┬───────────────────────────────┬───────────────────────────────┤
+│            TASK 1              │            TASK 2             │            TASK 3             │
+│ Baseline Model Benchmarking &  │ Weighted Deep Ensembling with │  ACT-Parity Optimization &    │
+│ Subgroup Operating Trade-offs  │ Hierarchical Tabular (HIR-M3) │ Comprehensive Equity Auditing │
+├────────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│ • 10 Model Architectures       │ • Base-to-HIR-M3 Ratios       │ • Augmented Lagrangian Method │
+│ • Nationwide vs. Texas         │ • Incremental Ensemble Value  │ • Multi-Attribute Parity      │
+│ • Rural vs. Urban Disparities  │ • Nationwide: 90:10 Blend     │ • FPSA Threshold Robustness   │
+│ • 7 Comorbidity Subgroups      │ • Texas: 30:70 Blend          │ • Cross-Cohort Transport      │
+└────────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
-### 1. Preprocess & Prepare Data
-To execute dataset cleaning, structural tier partitioning (Micro/Meso/Macro), and geographic SDOH merging:
-```bash
-python src/optimized/preprocessing_tx.py
+---
+
+## 📂 Repository Structure
+
+The repository is organized into three clean root directories (`data/`, `docs/`, `src/`):
+
+```
+.
+├── README.md                                  # Repository overview and reproduction guide
+├── LICENSE                                    # MIT License
+├── requirements.txt                           # Python dependencies
+├── .gitignore                                 # Git ignore rules for DUA & repository hygiene
+│
+├── data/                                      # Data documentation & benchmark metrics
+│   ├── README.md                              # CMS OASIS & SDoH data access & replication guide
+│   ├── best_hir_m3.pth                        # Pretrained model weights
+│   ├── hir_m3_metrics.csv                     # Model performance evaluation metrics
+│   └── hir_sdoh_ablation_results.csv          # SDoH tier ablation study results
+│
+├── docs/                                      # Clinical reports, supplementary files & figures
+│   ├── figures/                               # Publication figures (PDF & PNG)
+│   ├── TRIPOD_AI_CHECKLIST_AND_S1_MATRIX.md   # TRIPOD-AI checklist & verification matrix
+│   ├── COMPLETE_STUDY_RESULTS_REPORT.md       # Comprehensive study results & subgroup reports
+│   ├── supplementary_materials.tex            # Supplementary derivations and extended tables
+│   ├── tasks.md                               # Complete three-task technical report
+│   └── *.md / *.pdf                           # Extended clinical & architectural reports
+│
+└── src/                                       # Source code, execution pipelines & SLURM scripts
+    ├── run_all_slurm_pipeline.sh              # Master SLURM pipeline execution script
+    │
+    ├── 01_build_clean_datasets.slurm          # Stage 01: Cohort extraction & SDoH linkage
+    ├── 02_feature_selection.slurm             # Stage 02: Multi-method feature selection
+    ├── 03_primary_modeling.slurm              # Stage 03: GBDT baseline modeling
+    ├── 04_neural_modeling.slurm               # Stage 04: Neural & Transformer modeling
+    ├── 05_ensemble_ratios_nationwide.slurm    # Stage 05: Nationwide ensemble optimization
+    ├── 05_ensemble_ratios_texas.slurm         # Stage 05: Texas ensemble optimization
+    ├── 06_urban_rural_modeling.slurm          # Stage 06: Rural vs. Urban stratification
+    ├── 07_condition_subgroups.slurm           # Stage 07: Comorbidity subgroup evaluation
+    ├── 08_nationwide_models_benchmark.slurm   # Stage 08: Benchmark models comparison (NW)
+    ├── 08_texas_models_benchmark.slurm        # Stage 08: Benchmark models comparison (TX)
+    ├── 08_unified_parity_nationwide.slurm     # Stage 08: ACT-Parity optimization (NW)
+    ├── 08_unified_parity_texas.slurm          # Stage 08: ACT-Parity optimization (TX)
+    ├── 09_equity_experiments.slurm            # Stage 09: Comprehensive equity auditing
+    ├── 10_reviewer_experiments.slurm          # Stage 10: Calibration, DCA & transport audits
+    │
+    ├── preprocessing_nb_condensed.py          # Nationwide data preprocessing pipeline
+    ├── preprocessing_tx_condensed.py          # Texas statewide data preprocessing pipeline
+    ├── preprocessing_orgOASIS.py              # OASIS raw feature transformations
+    │
+    ├── featureSelection/                      # Feature selection modules
+    │   ├── feature_selection.py               # Multi-strategy feature selector (RF, MI, Lasso)
+    │   ├── run_cohort_urban_rural_fs.py       # Subgroup feature selection runner
+    │   └── utils.py                           # Shared FS utilities
+    │
+    ├── modeling/                              # Machine learning & transformer suite
+    │   ├── models.py                          # GBDT, Tabular Transformer, HIR-M3 architectures
+    │   ├── utils.py                           # Dataset loaders, cross-validation, batchers
+    │   ├── metrics.py                         # Clinical discrimination & operating metrics
+    │   ├── hier_icd_embedding.py              # Hierarchical ICD embedding layer (HICD-BERT)
+    │   ├── optimize_ensemble.py               # Optimal ratio search
+    │   ├── explore_ensemble_ratios.py         # Ratio grid-search driver
+    │   ├── run_modeling.py                    # Baseline GBDT benchmark
+    │   ├── run_neural_modeling.py             # Neural & Transformer benchmark
+    │   ├── run_urban_rural_modeling.py        # Geographic stratification runner
+    │   ├── run_condition_subgroup_modeling.py # 7 clinical comorbidity subgroup runner
+    │   └── run_equity_experiments.py          # Baseline demographic equity audits
+    │
+    ├── parity/                                # Algorithmic fairness & ACT-Parity suite
+    │   ├── models.py                          # ACTParityV2 neural architecture & heads
+    │   ├── loss.py                            # Augmented Lagrangian Method (ALM) loss
+    │   ├── metrics.py                         # Fairness evaluation routines
+    │   ├── equity_metrics.py                  # Multi-attribute parity, FPSA, FNR-worst audits
+    │   ├── compare_all_models_nationwide.py   # Full model parity evaluation (Nationwide)
+    │   ├── compare_all_models_texas.py        # Full model parity evaluation (Texas)
+    │   └── run_unified_parity_comparison.py   # Cross-model parity comparison driver
+    │
+    ├── scripts/                               # Statistical evaluation & figures
+    │   ├── build_clean_datasets.py            # Cohort filtration & SDoH linkage
+    │   ├── compute_table_cis.py               # 95% bootstrap confidence intervals
+    │   ├── compute_hir_ablation_cis.py        # HIR-M3 ablation bootstrap CIs
+    │   ├── eval_calibration.py                # Calibration deciles, ICI, ECE calculation
+    │   ├── eval_dca.py                        # Decision Curve Analysis (Net Clinical Benefit)
+    │   ├── eval_capacity.py                   # Clinical review capacity simulation
+    │   ├── eval_transport.py                  # Cross-geographic transportability evaluation
+    │   ├── run_reviewer_experiments.py        # Automated runner for reviewer analyses
+    │   └── generate_publication_figures.py    # Vector graphic publication figure generator
+    │
+    ├── figures/                               # Attention tier figures & visual exploration
+    └── results/                               # Benchmark metric outputs & calibration logs
 ```
 
-### 2. Train HIR-M3 Model
-To train the HIR-M3 regularized transformer with demographic sample weighting:
+---
+
+## 🚀 Quickstart & Reproduction
+
+### 1. Environment Setup
+
 ```bash
-python src/run_hir_m3.py
+# Clone the repository
+git clone https://github.com/AI2TXST/HIR-M3.git
+cd HIR-M3
+
+# Create and activate conda environment
+conda create -n oasis_readmission python=3.10 -y
+conda activate oasis_readmission
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
-### 3. Run Hybrid Ensemble Optimization
-To optimize the blending alpha parameter between LightGBM and HIR-M3:
+### 2. Data Preparation
+Review [`data/README.md`](data/README.md) for instructions on obtaining CMS OASIS and AHRQ SDoH datasets under a Data Use Agreement (DUA).
+
+Place the prepared datasets in the `data/` directory:
+- `data/processed_final_mergedDF_condensed.csv` (Nationwide cohort)
+- `data/processed_final_mergedDF_condensed_TX.csv` (Texas cohort)
+
+### 3. Pipeline Execution (SLURM / HPC)
+
+Navigate to the `src/` directory to run the pipeline scripts:
 ```bash
-python src/optimize_ensemble.py
+cd src
+
+# Master execution of all 10 stages sequentially
+bash run_all_slurm_pipeline.sh
 ```
 
-### 4. Run Demographic Equity & Disparity Audit
-To evaluate sensitivity, recall, and fairness metrics across demographic cohorts:
+Or submit individual stages from the repository root:
 ```bash
-python src/race_disparity_analysis.py
+# Stage 01: Feature selection
+sbatch src/02_feature_selection.slurm
+
+# Stage 03: Baseline modeling
+sbatch src/03_primary_modeling.slurm
+
+# Stage 08: ACT-Parity optimization
+sbatch src/08_unified_parity_nationwide.slurm
+sbatch src/08_unified_parity_texas.slurm
+
+# Stage 10: Reviewer analyses (Calibration, DCA, Transportability)
+sbatch src/10_reviewer_experiments.slurm
 ```
 
+---
+
+## 📊 Key Methodological Contributions
+
+1. **Social-Ecological Hierarchical Modeling (HIR-M3)**: Organizes predictors into Micro (clinical/functional), Meso (tract SDoH/ADI), and Macro (facility case-mix) tiers with gated attention and ICD-10 hierarchy embeddings.
+2. **Clinical Asymmetry in Algorithmic Fairness**: Formulates parity constraints around False Negative Rate disparities ($\text{FNR}_{\text{worst}}$) to prevent under-detection of high-risk patients.
+3. **Augmented Lagrangian Constrained Optimization (ACT-Parity)**: Enforces fairness bounds dynamically via dual multipliers and quadratic penalties, avoiding gradient collapse and arbitrary trade-offs.
+4. **Continuous-Threshold Equity Auditing (FPSA)**: Evaluates fairness-performance stability across 41 decision thresholds ($0.10 \le \tau \le 0.50$) rather than static cutoffs.
+5. **Cross-Geographic Transport Auditing**: Measures empirical calibration drift and equity transport gaps ($\Delta$) when transferring national models to regional state deployments.
+
+---
+
+## 📜 Compliance and Checklist
+
+- **TRIPOD-AI Checklist**: Complete item-by-item compliance is documented in [`docs/TRIPOD_AI_CHECKLIST_AND_S1_MATRIX.md`](docs/TRIPOD_AI_CHECKLIST_AND_S1_MATRIX.md).
+- **Supplementary Materials**: Extended tables, derivations, and full hyperparameter search grids are available in [`docs/supplementary_materials.tex`](docs/supplementary_materials.tex).
+
+---
+
+## 📄 Citation
+
+```bibtex
+@article{oasis_HIR_M3_2026,
+  title   = {{HIR-M3}: Hierarchy-Aware Tabular Modeling and {ACT-Parity} Evaluation for 30-Day Acute-Care Utilization After Home Health Care},
+  author  = {Elizondo, Mirna and Te{\v{s}}i{\'c}, Jelena},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  year    = {2026},
+  note    = {Under review}
+}
+```
+
+---
+
+## ⚖️ License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.

@@ -1,0 +1,4 @@
+Regime,Cohort N,Prevalence,ROC-AUC,PR-AUC (mAP),Brier Score,Calibration Intercept (a),Calibration Slope (b)
+Nationwide -> Nationwide Held-Out (Internal Test),10000,13.21%,0.669,0.256,0.109,-0.101,0.938
+Nationwide -> Texas External Test (Zero-Shot Transport),1467,15.61%,0.724,0.387,0.118,+0.605,1.310
+Transportability Delta (Delta Drop),—,+2.40%,+0.055 (8.2%),+0.131 (51.4%),+0.009,+0.706,+0.373

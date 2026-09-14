@@ -1,0 +1,9 @@
+Subgroup,Count,Micro_Tier_Avg_Importance,Meso_Tier_Avg_Importance,Macro_Tier_Avg_Importance,Top_Driver_1,Top_Driver_2,Top_Driver_3
+Black,500,0.01357359066605568,0.0076940967701375484,0.016811829060316086,has_hypertension,has_heart_failure,has_diabetes
+White,500,0.015305599197745323,0.011892917566001415,0.021921474486589432,has_hypertension,has_heart_failure,has_diabetes
+Hispanic,500,0.013508163392543793,0.006311395671218634,0.024389607831835747,has_diabetes,Facility_Internal_ID_freq,has_hypertension
+Asian,205,0.013152859173715115,0.009741340763866901,0.01773166097700596,has_diabetes,has_hypertension,Facility_Internal_ID_freq
+NHPI,17,0.014477812685072422,0.005475369747728109,0.021653050556778908,has_diabetes,has_hypertension,has_heart_failure
+AIAN,27,0.01282853726297617,0.008515018969774246,0.017910176888108253,has_hypertension,hicd_bert_emb_17,has_diabetes
+Urban,500,0.0171036459505558,0.011766823939979076,0.02846633642911911,has_hypertension,Facility_Internal_ID_freq,has_diabetes
+Rural,500,0.015345204621553421,0.00854854378849268,0.021093757823109627,has_hypertension,has_diabetes,has_heart_failure

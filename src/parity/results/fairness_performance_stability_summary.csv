@@ -1,0 +1,17 @@
+Cohort,Model,Threshold Range Start,Threshold Range End,Threshold Increment,Valid Threshold Count,Acceptable Threshold Count,Fairness-Performance Stability Area,Maximum Allowed ACT-Parity Gap,Minimum Recall,Minimum Precision,Maximum FNR Gap,Maximum FPR Gap,Positive Net Benefit Required,Default Threshold,ACT-Parity Threshold
+Nationwide Cohort,XGBoost with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.6571
+Nationwide Cohort,XGBoost baseline,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.6554
+Nationwide Cohort,LightGBM baseline,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.6319
+Nationwide Cohort,LightGBM with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.631
+Nationwide Cohort,HIR-M3 Transformer,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.6176
+Nationwide Cohort,HIR-M3 Transformer with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.11
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10),0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.647
+Nationwide Cohort,XGBoost + HIR-M3 Ensemble (90:10) with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.5963
+Texas Cohort,CatBoost with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.6555
+Texas Cohort,CatBoost baseline,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.5927
+Texas Cohort,XGBoost with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.5568
+Texas Cohort,XGBoost baseline,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.5736
+Texas Cohort,HIR-M3 Transformer,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.5067
+Texas Cohort,HIR-M3 Transformer with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.1106
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70),0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.5192
+Texas Cohort,XGBoost + HIR-M3 Ensemble (30:70) with ACT-parity,0.1,0.4999999999999998,0.01,41,0,0.0,0.04,0.7,0.3,0.1,0.1,False,0.5,0.2639

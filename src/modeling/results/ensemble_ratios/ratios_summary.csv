@@ -1,0 +1,13 @@
+,index,Cohort,Base Model,Target Model,Pair Name,Ensemble Ratio (Base:HIR),ROC_AUC [95% CI],PR_AUC [95% CI],F1 Score [95% CI],Brier [95% CI]
+0,0,Texas Cohort,LightGBM,HIR-M3 Transformer,LightGBM + HIR-M3 Transformer,0:100,0.8138 (0.8047 - 0.8237),0.4467 (0.4224 - 0.4727),0.4741 (0.4582 - 0.4926),0.1795 (0.1762 - 0.1833)
+1,1,Texas Cohort,XGBoost,HIR-M3 Transformer,XGBoost + HIR-M3 Transformer,30:70,0.8182 (0.8090 - 0.8274),0.4558 (0.4281 - 0.4815),0.4755 (0.4579 - 0.4937),0.1697 (0.1664 - 0.1733)
+2,2,Texas Cohort,CatBoost,HIR-M3 Transformer,CatBoost + HIR-M3 Transformer,0:100,0.8138 (0.8047 - 0.8237),0.4467 (0.4224 - 0.4727),0.4741 (0.4582 - 0.4926),0.1795 (0.1762 - 0.1833)
+3,3,Texas Cohort,Random Forest,HIR-M3 Transformer,Random Forest + HIR-M3 Transformer,0:100,0.8138 (0.8047 - 0.8237),0.4467 (0.4224 - 0.4727),0.4741 (0.4582 - 0.4926),0.1795 (0.1762 - 0.1833)
+4,4,Texas Cohort,Gradient Boosting,HIR-M3 Transformer,Gradient Boosting + HIR-M3 Transformer,0:100,0.8138 (0.8047 - 0.8237),0.4467 (0.4224 - 0.4727),0.4741 (0.4582 - 0.4926),0.1795 (0.1762 - 0.1833)
+5,5,Texas Cohort,Logistic Regression,HIR-M3 Transformer,Logistic Regression + HIR-M3 Transformer,0:100,0.8138 (0.8047 - 0.8237),0.4467 (0.4224 - 0.4727),0.4741 (0.4582 - 0.4926),0.1795 (0.1762 - 0.1833)
+6,6,Nationwide Cohort,LightGBM,HIR-M3 Transformer,LightGBM + HIR-M3 Transformer,100:0,0.8235 (0.8189 - 0.8273),0.4229 (0.4133 - 0.4314),0.4474 (0.4389 - 0.4550),0.1648 (0.1634 - 0.1662)
+7,7,Nationwide Cohort,XGBoost,HIR-M3 Transformer,XGBoost + HIR-M3 Transformer,90:10,0.8233 (0.8190 - 0.8275),0.4249 (0.4143 - 0.4335),0.4489 (0.4406 - 0.4558),0.1732 (0.1716 - 0.1746)
+8,8,Nationwide Cohort,CatBoost,HIR-M3 Transformer,CatBoost + HIR-M3 Transformer,100:0,0.8227 (0.8184 - 0.8270),0.4218 (0.4124 - 0.4309),0.4492 (0.4415 - 0.4572),0.1764 (0.1749 - 0.1778)
+9,9,Nationwide Cohort,Random Forest,HIR-M3 Transformer,Random Forest + HIR-M3 Transformer,70:30,0.8031 (0.7987 - 0.8078),0.3645 (0.3549 - 0.3739),0.4140 (0.4078 - 0.4202),0.1599 (0.1591 - 0.1610)
+10,10,Nationwide Cohort,Gradient Boosting,HIR-M3 Transformer,Gradient Boosting + HIR-M3 Transformer,90:10,0.8094 (0.8046 - 0.8137),0.3946 (0.3857 - 0.4037),0.4328 (0.4259 - 0.4400),0.1868 (0.1856 - 0.1880)
+11,11,Nationwide Cohort,Logistic Regression,HIR-M3 Transformer,Logistic Regression + HIR-M3 Transformer,100:0,0.7959 (0.7911 - 0.8002),0.3825 (0.3731 - 0.3922),0.4238 (0.4164 - 0.4319),0.1839 (0.1824 - 0.1852)
