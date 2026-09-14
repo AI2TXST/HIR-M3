@@ -1,4 +1,4 @@
-# Predictive Modeling, Ensembling, and Algorithmic Parity for 30-Day Readmission Risk
+# HIR-M3: Hierarchy-Aware Tabular Modeling and ACT-Parity Evaluation for 30-Day Acute-Care Utilization After Home Health Care
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
@@ -6,7 +6,7 @@
 [![TRIPOD-AI Compliant](https://img.shields.io/badge/TRIPOD--AI-Compliant-brightgreen.svg)](docs/TRIPOD_AI_CHECKLIST_AND_S1_MATRIX.md)
 
 This repository provides the official implementation, experimental pipelines, and evaluation suite for the study:  
-**"Predictive Modeling, Ensembling, and Algorithmic Parity for 30-Day Readmission Risk: A Multi-Task Investigation Across Geographic and Clinical Subgroups"**.
+**"HIR-M3: Hierarchy-Aware Tabular Modeling and ACT-Parity Evaluation for 30-Day Acute-Care Utilization After Home Health Care"**.
 
 ---
 
